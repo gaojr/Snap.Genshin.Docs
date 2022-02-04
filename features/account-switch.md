@@ -1,4 +1,4 @@
-多帐号切换
+# 多帐号切换
 
 - [设置Snap Genshin启动器](game-launcher.md)
 

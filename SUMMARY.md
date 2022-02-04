@@ -17,7 +17,7 @@
   - [戴尔设备图片异常放大或模糊](FAQ/Dell-AWCC-error.md)
   - [从其它程序转移祈愿记录](FAQ/transfer-from-other-wish-export.md)
 - [开发](development/README.md)
-  - [统一可交换祈愿记录标准 v 2.1](development/StandardFormat.md)
+  - [统一可交换祈愿记录标准 v2.1](development/StandardFormat.md)
   - [开发人员指南](development/DeveloperGuide.md)
   - [插件开发](development/PluginTutorial.md)
 - [用户数据和隐私权益](User-Privacy-Notice.md)

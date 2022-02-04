@@ -7,6 +7,6 @@
 ## 启动 Snap Genshin
 
 - 将下载的压缩包内容解压到你认为合适的目录进行解压缩
-- 启动为名`DSP.Genshin.exe`的主程序
+- 启动为名`DGP.Genshin.exe`的主程序
   - 如果弹窗出现缺少`.NET`环境错误，可参阅[.NET环境缺失错误](../FAQ/dotNET-env.md)解决问题
 - 此时，你应当已经可以看到 Snap Genshin 程序界面

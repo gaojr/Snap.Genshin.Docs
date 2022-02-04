@@ -1,0 +1,21 @@
+# 目录
+
+- [前言](README.md)
+- [功能一览](all-features.md)
+- [开始使用](getting-started/README.md)
+  - [快速开始](getting-started/quick-start.md)
+  - [初始化设置](getting-started/account-initialization.md)
+- [功能](features/README.md)
+  - [启动游戏](features/game-launcher.md)
+  - [解锁帧率](features/unlock-framerate.md)
+  - [多帐号切换](features/account-switch.md)
+  - [祈愿记录导出](features/wish-export.md)
+- [常见问题](FAQ/README.md)
+  - [.NET 环境缺失错误](FAQ/dotNET-env.md)
+  - [游戏启动路径错误](FAQ/launcher-path-error.md)
+  - [从其它程序转移祈愿记录](FAQ/transfer-from-other-wish-export.md)
+- [开发](development/README.md)
+  - [统一可交换祈愿记录标准 v 2.1](development/StandardFormat.md)
+  - [开发人员指南](development/DeveloperGuide.md)
+  - [插件开发](development/PluginTutorial.md)
+

@@ -1,0 +1,76 @@
+{
+    "title": "Snap Genshin 帮助文档",
+    "description": "Snap Genshin原神工具的帮助文档",
+    "author": "Masterain",
+    "output.name": "site",
+    "language": "zh-hans",
+    "gitbook": "3.2.3",
+    "root": ".",
+    "links": {
+        "sidebar": {
+            "Github: Snap Genshin": "https://github.com/DGP-Studio/Snap.Genshin"
+        }
+    },
+    "plugins": [
+        "-lunr", 
+        "-search",
+        "-sharing",
+        "-fontsettings",
+        "highlight",
+        "livereload",
+        "search-pro",
+        "expandable-chapters-small",
+        "splitter",
+        "back-to-top-button",
+        "pageview-count",
+        "code",
+        "page-toc-button",
+        "tbfed-pagefooter",
+        "github",
+        "theme-fexa"
+    ],
+    "variables": {
+        "themeFexa":{
+            "nav":[
+                {
+                    "url":"https://github.com/DGP-Studio/Snap.Genshin",
+                    "target":"_blank",
+                    "name": "Github"
+                }
+            ]
+        }
+    },
+    "pluginsConfig": {
+        "github": {
+            "url": "https://github.com/DGP-Studio/Snap.Genshin"
+        },
+        "hide-element": {
+            "elements": [".gitbook-link", "gitbook-link"]
+        },
+        "favicon": {
+            "shortcut": "assets/logo/SGLogo32.ico",
+            "bookmark": "assets/logo/SGLogo32.ico",
+            "appleTouch": "assets/logo/SGLogo32.ico",
+            "appleTouchMore": {
+                "120x120": "assets/logo/SGLogo120.ico",
+                "180x180": "assets/logo/SGLogo180.ico"
+            }
+        },
+       "page-toc-button": {
+            "maxTocDepth": 2,
+            "minTocSize": 2
+        },
+        "tbfed-pagefooter": {
+            "copyright":"Copyright &copy Snap Genshin",
+            "modify_label": "该文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "theme-fexa":{
+            "search-placeholder":"输入关键字搜索", 
+            "logo":"assets/logo/long-logo.png", 
+            "favicon": "assets/logo/favicon.ico" 
+        }
+
+    }
+}
+

@@ -5,3 +5,6 @@
 欢迎访问Snap Genshin文档，你可以在这里找到软件的使用帮助
 
 大多数文档还在创建过程中，你可以在QQ群里提出更多的帮助指南需求
+
+你也可以直接向 **[Snap.Genshin.Docs](https://github.com/DGP-Studio/Snap.Genshin.Docs)** 库提交你撰写的文档
+

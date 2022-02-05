@@ -1,7 +1,6 @@
 # 从其它祈愿记录导出工具转移数据到Snap Genshin
 
-> [!TIP | label: 友情提示]
->
+> [!TIP]
 > 保持同时使用多个祈愿记录导出工具可以有效地防止因某一工具临时失效而造成数据丢失
 
 ## [Genshin Wish Export](https://github.com/biuuu/genshin-wish-export)

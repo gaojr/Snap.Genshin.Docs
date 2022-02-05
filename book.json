@@ -27,7 +27,8 @@
         "page-toc-button",
         "tbfed-pagefooter",
         "github",
-        "theme-fexa"
+        "theme-fexa",
+        "flexible-alerts"
     ],
     "variables": {
         "themeFexa":{
@@ -60,7 +61,10 @@
             "search-placeholder":"输入关键字搜索", 
             "logo":"assets/logo/long-logo.png", 
             "favicon": "assets/logo/favicon.ico" 
-        }
+        },
+        "flexible-alerts": {
+            "style": "flat"
+          }
 
     }
 }

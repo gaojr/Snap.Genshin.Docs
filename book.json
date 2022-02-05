@@ -47,15 +47,6 @@
         "hide-element": {
             "elements": [".gitbook-link", "gitbook-link"]
         },
-        "favicon": {
-            "shortcut": "assets/logo/SGLogo32.ico",
-            "bookmark": "assets/logo/SGLogo32.ico",
-            "appleTouch": "assets/logo/SGLogo32.ico",
-            "appleTouchMore": {
-                "120x120": "assets/logo/SGLogo120.ico",
-                "180x180": "assets/logo/SGLogo180.ico"
-            }
-        },
        "page-toc-button": {
             "maxTocDepth": 2,
             "minTocSize": 2

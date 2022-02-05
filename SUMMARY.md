@@ -16,6 +16,7 @@
   - [游戏启动路径错误](FAQ/launcher-path-error.md)
   - [戴尔设备图片异常放大或模糊](FAQ/Dell-AWCC-error.md)
   - [从其它程序转移祈愿记录](FAQ/transfer-from-other-wish-export.md)
+  - [为什么重启没有解决问题](FAQ/how-to-quit-program.md)
 - [开发](development/README.md)
   - [统一可交换祈愿记录标准 v2.1](development/StandardFormat.md)
   - [开发人员指南](development/DeveloperGuide.md)

@@ -8,6 +8,24 @@
 
 你也可以直接向 **[Snap.Genshin.Docs](https://github.com/DGP-Studio/Snap.Genshin.Docs)** 库提交你撰写的文档
 
+## 开发
+
+先决条件：
+- nodejs(Version >= 16)
+- yarn(Version >= 1)
+
+首先运行：
+```git
+git clone https://github.com/DGP-Studio/Snap.Genshin.Docs.git
+```
+
+然后在项目文件夹下运行：
+
+```yarn
+yarn install
+yarn docs:dev
+```
+
 ## 感谢
 
 ![WebStorm logo](https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm.png)

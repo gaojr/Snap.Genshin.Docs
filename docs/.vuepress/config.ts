@@ -30,10 +30,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/privacy/'
       },
       {
-        text: '下载',
-        link: 'https://github.com/DGP-Studio/Snap.Genshin/releases'
-      },
-      {
         text: '开发',
         children: [
           {
@@ -71,6 +67,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             ]
           }
         ]
+      },
+      {
+        text: '下载',
+        link: 'https://github.com/DGP-Studio/Snap.Genshin/releases'
       },
       {
         text: '爱发电',

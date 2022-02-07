@@ -19,61 +19,15 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '功能',
-        children: [
-          {
-            text: '概览',
-            link: '/features/'
-          },
-          {
-            text: '启动游戏',
-            link: '/features/game-launcher.md'
-          },
-          {
-            text: '解锁帧率',
-            link: '/features/unlock-framerate.md'
-          },
-          {
-            text: '原神多帐号切换',
-            link: '/features/account-switch.md'
-          },
-          {
-            text: '米游社多帐号切换',
-            link: '/features/mhy-account-switch.md'
-          },
-          {
-            text: '祈愿记录导出',
-            link: '/features/wish-export.md'
-          },
-        ]
+        link: '/features/'
       },
       {
         text: '常见问题',
-        children: [
-          {
-            text: '.NET 环境缺失错误',
-            link: '/FAQ/dotNET-env.md'
-          },
-          {
-            text: 'WebView2环境缺失错误',
-            link: '/FAQ/WebView2-env.md'
-          },
-          {
-            text: '游戏启动路径错误',
-            link: '/FAQ/launcher-path-error.md'
-          },
-          {
-            text: '戴尔设备图片异常放大或模糊',
-            link: '/FAQ/Dell-AWCC-error.md'
-          },
-          {
-            text: '从其它程序转移祈愿记录',
-            link: '/FAQ/transfer-from-other-wish-export.md'
-          },
-          {
-            text: '为什么重启没有解决问题',
-            link: '/FAQ/how-to-quit-program.md'
-          },
-        ]
+        link: '/FAQ/'
+      },
+      {
+        text: '隐私协议',
+        link: '/privacy/'
       },
       {
         text: '开发',
@@ -93,10 +47,6 @@ export default defineUserConfig<DefaultThemeOptions>({
         ]
       },
       {
-        text: '隐私协议',
-        link: '/privacy/'
-      },
-      {
         text: '爱发电',
         link: 'https://afdian.net/@DismissedLight'
       }
@@ -109,10 +59,24 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsDir: 'docs',
     contributors: false,
     contributorsText: '贡献者',
+    lastUpdatedText: '最后一次更新',
     tip: '提示',
     warning: '警告',
     danger: '危险',
     notFound: ["找不到该页面"],
     backToHome: '返回首页',
   },
+  plugins: [
+    [
+      '@vuepress/plugin-search',
+      {
+        locales: {
+          '/': {
+            placeholder: '搜索文档',
+            hotKeys: ['/']
+          }
+        }
+      }
+    ]
+  ]
 })

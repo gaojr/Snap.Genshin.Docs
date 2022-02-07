@@ -25,10 +25,7 @@ footer: MIT Licensed | Made by DGP Studio
 
 > **最低：Windows 10 1903 - 10.0.18362.x**  
 > 推荐：Windows 11 21H1 - 10.0.22000.x  
-> 运行时：.NET 6 [WebView2 Runtime 可选]  
-> 运行时内存需求：200MB  
-> 储存空间需求：300MB
-
+> 运行时：.NET 6 [WebView2 Runtime 可选]
 
 ## 标题栏
 
@@ -81,7 +78,6 @@ footer: MIT Licensed | Made by DGP Studio
 可以加入我们的QQ群
 
 > 我们的QQ群：**547288075**
-
 
 ## 开发人员
 

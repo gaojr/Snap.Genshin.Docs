@@ -47,9 +47,31 @@ export default defineUserConfig<DefaultThemeOptions>({
         ]
       },
       {
+        text: '交流',
+        children: [
+          {
+            text: 'QQ群',
+            children: [
+              {
+                text: '982424236',
+                link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
+              },
+              {
+                text: '547288075',
+                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
+              },
+              {
+                text: '910780153',
+                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
+              }
+            ]
+          }
+        ]
+      },
+      {
         text: '爱发电',
         link: 'https://afdian.net/@DismissedLight'
-      }
+      },
     ],
     repo: 'DGP-Studio/Snap.Genshin',
     editLink: true,

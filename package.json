@@ -1,6 +1,6 @@
 {
   "name": "Snap.Genshin.Docs",
-  "version": "1.0.0",
+  "version": "2.2.7",
   "description": "Snap Genshin的帮助文档",
   "main": "index.js",
   "scripts": {

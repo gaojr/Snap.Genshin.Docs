@@ -6,4 +6,4 @@
 - 点击右上角的`从 日志文件 刷新` 按钮
 - 根据程序提示，等待祈愿日志读取结束
 
-![wish-export-sample](img/wish-export-sample.png)
+![wish-export-sample](/img/wish-export-sample.png)

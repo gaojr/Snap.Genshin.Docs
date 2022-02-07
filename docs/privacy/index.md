@@ -1,3 +1,7 @@
+---
+sidebar: false
+---
+
 # 用户数据和隐私权益
 
 Snap Genshin 尊重个人用户的隐私权，目前 Snap Genshin 使用了以下数据：

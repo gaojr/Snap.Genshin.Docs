@@ -5,4 +5,4 @@
 - Snap Genshin 会常驻后台以更新下信息
   - 所以需要从托盘彻底关闭 Snap Genshin 
 
-![](img/quit-program.png)
+![](/img/quit-program.png)

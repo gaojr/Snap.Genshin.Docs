@@ -96,6 +96,23 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '隐私协议',
         link: '/privacy/'
       },
-    ]
+      {
+        text: '爱发电',
+        link: 'https://afdian.net/@DismissedLight'
+      }
+    ],
+    repo: 'DGP-Studio/Snap.Genshin',
+    editLink: true,
+    editLinkText: '编辑此页',
+    docsRepo: 'DGP-Studio/Snap.Genshin.Docs',
+    docsBranch: 'main',
+    docsDir: 'docs',
+    contributors: false,
+    contributorsText: '贡献者',
+    tip: '提示',
+    warning: '警告',
+    danger: '危险',
+    notFound: ["找不到该页面"],
+    backToHome: '返回首页',
   },
 })

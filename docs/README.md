@@ -3,7 +3,7 @@ title: 首页
 home: true
 heroImage: /logo/Home.png
 heroText: Snap Genshin
-tagline: 原神启动器
+tagline: null
 actions:
   - text: 立即下载
     link: https://github.com/DGP-Studio/Snap.Genshin/releases

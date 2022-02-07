@@ -8,3 +8,6 @@
 
 你也可以直接向 **[Snap.Genshin.Docs](https://github.com/DGP-Studio/Snap.Genshin.Docs)** 库提交你撰写的文档
 
+## 感谢
+
+![WebStorm logo](https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm.png)

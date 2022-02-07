@@ -9,7 +9,7 @@
   * [启动游戏](features/game-launcher.md)
   * [解锁帧率](features/unlock-framerate.md)
   * [原神多帐号切换](features/account-switch.md)
-  * [米游社多帐号切换](mhy-account-switch.md)
+  * [米游社多帐号切换](features/mhy-account-switch.md)
   * [祈愿记录导出](features/wish-export.md)
 * [常见问题](FAQ/README.md)
   * [.NET 环境缺失错误](FAQ/dotNET-env.md)

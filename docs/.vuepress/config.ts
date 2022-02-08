@@ -58,11 +58,11 @@ export default defineUserConfig<DefaultThemeOptions>({
               },
               {
                 text: '547288075',
-                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
+                link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
               },
               {
                 text: '910780153',
-                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
+                link: 'https://jq.qq.com/?_wv=1027&k=MHLNhhYJ'
               }
             ]
           }

@@ -85,7 +85,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsDir: 'docs',
     contributors: false,
     contributorsText: '贡献者',
-    lastUpdatedText: '最后一次更新',
+    lastUpdatedText: '上次更新',
     tip: '提示',
     warning: '警告',
     danger: '危险',

@@ -18,7 +18,7 @@ features:
     details: 支持多UID切换，完全支持2.3更新后的双角色UP池。支持从游戏日志文件中获取数据及手动输入Url。
   - title: 实时便笺
     details: 显示当前用户相关信息，摩拉原石收入情况，探索派遣进度，树脂余量。支持快速多账号切换，无边框与窗口化，解锁FPS上限。一键领取签到奖励。
-footer: <div>MIT Licensed | Made by DGP Studio</div><div><a href="https://beian.miit.gov.cn" target="_blank">备案号：辽ICP备2022000967号</a></div>
+footer: <div>MIT Licensed | Made by DGP Studio</div><div><a href="https://beian.miit.gov.cn" target="_blank">辽ICP备2022000967号</a></div>
 footerHtml: true
 ---
 

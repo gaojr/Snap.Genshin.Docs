@@ -1,4 +1,4 @@
-# 统一可交换祈愿记录标准 v2.1
+# 统一可交换祈愿记录标准 v 2.2
 
 > Uniformed Interchangeable GachaLog Format standard (UIGF)
 
@@ -42,12 +42,12 @@
 
 #### `uigf_gacha_type` 映射关系
 
-| `uigf_gacha_type` | `gacha_type` |
-| ----------------- | ------------ |
-| 100               | 100          |
-| 200               | 200          |
-| 301               | 301\|400     |
-| 302               | 302          |
+|`uigf_gacha_type`|`gacha_type`|
+|-|-|
+|100|100|
+|200|200|
+|301|301\|400|
+|302|302|
 
 ## Excel 工作簿 (Workbook Format)
 > Uniformed Interchangeable GachaLog Format standard of Workbook (UIGF.W)
@@ -65,14 +65,14 @@
 
 ### 表名及内容
 
-| 表名         | 内容                                 | 类型   | 是否必要                       |
-| ------------ | ------------------------------------ | ------ | ------------------------------ |
-| 统计分析     | 统计分析内容等                       | 任意   | 否                             |
-| 角色活动祈愿 | `gacha_type` : `301\|400` 的祈愿数据 | 祈愿表 | 否，但是应该导出               |
-| 武器活动祈愿 | `gacha_type` : `302` 的祈愿数据      | 祈愿表 | 否，但是应该导出               |
-| 常驻祈愿     | `gacha_type` : `200` 的祈愿数据      | 祈愿表 | 否，但是应该导出               |
-| 新手祈愿     | `gacha_type` : `100` 的祈愿数据      | 祈愿表 | 否，但是应该导出               |
-| 原始数据     | 全部祈愿数据                         | 数据表 | **详见下方原始数据表结构说明** |
+|表名|内容|类型|是否必要|
+|-|-|-|-|
+|统计分析|统计分析内容等|任意|否|
+|角色活动祈愿|`gacha_type` : `301\|400` 的祈愿数据|祈愿表|否，但是应该导出|
+|武器活动祈愿|`gacha_type` : `302` 的祈愿数据|祈愿表|否，但是应该导出|
+|常驻祈愿|`gacha_type` : `200` 的祈愿数据|祈愿表|否，但是应该导出|
+|新手祈愿|`gacha_type` : `100` 的祈愿数据|祈愿表|否，但是应该导出|
+|原始数据|全部祈愿数据|数据表|**详见下方原始数据表结构说明**|
 
 * 表的顺序可以是任意的
 * 可以隐藏部分表，防止用户随意篡改数据
@@ -88,33 +88,33 @@
 * **共享保底的卡池**按祈愿类型 (`gacha_type`) 区分
 * 此类 `Sheet` 存在的目的，是为了便于用户观看与祈愿分析工具的分析
 
-| 表头     | 内容                                     | 是否必要                     |
-| -------- | ---------------------------------------- | ---------------------------- |
-| 时间     | `yyyy-MM-dd HH:mm:ss` 格式的 `time` 时间 | 是                           |
-| 名称     | `name`物品名称                           | 是                           |
-| 物品类型 | `item_type`                              | 是                           |
-| 星级     | `rank_type`                              | 是                           |
-| 祈愿类型 | `gacha_type` 的转义名称                  | 是，尽管部分工具不会分析此项 |
-| ...      | ...                                      | 否                           |
+|表头|内容|是否必要|
+|-|-|-|
+|时间|`yyyy-MM-dd HH:mm:ss` 格式的 `time` 时间|是|
+|名称|`name`物品名称|是|
+|物品类型|`item_type`|是|
+|星级|`rank_type`|是|
+|祈愿类型|`gacha_type` 的转义名称|是，尽管部分工具不会分析此项|
+|...|...|否|
 
 > 如果你认为有必要的话，可以额外增加其他表头，但请确保表头的前几列为上表规范的内容  
 > 表内的数据通常按祈愿Id升序或降序排列，分析App不应假设表内的顺序为特定的升序与降序  
 
 #### `gacha_type` 转义名称
-| gacha_type | 名称           |
-| ---------- | -------------- |
-| 100        | 新手祈愿       |
-| 200        | 常驻祈愿       |
-| 301        | 角色活动祈愿   |
-| 400        | 角色活动祈愿-2 |
-| 302        | 武器活动祈愿   |
+|gacha_type|名称|
+|-|-|
+|100|新手祈愿|
+|200|常驻祈愿|
+|301|角色活动祈愿|
+|400|角色活动祈愿-2|
+|302|武器活动祈愿|
 
 #### 示例
 
-| 时间                | 名称     | 类别 | 星级 | 祈愿类型       | ...  |
-| ------------------- | -------- | ---- | ---- | -------------- | ---- |
-| 2021-02-17 18:45:09 | 以理服人 | 武器 | 3    | 角色活动祈愿-2 | ...  |
-| ...                 | ...      | ...  | ...  | ...            | ...  |
+|时间|名称|类别|星级|祈愿类型|...|
+|-|-|-|-|-|-|
+|2021-02-17 18:45:09|以理服人|武器|3|角色活动祈愿-2|...|
+|...|...|...|...|...|...|
 
 ### 原始数据表结构
 
@@ -132,26 +132,26 @@
 * 强烈建议您编写不依赖于列的顺序位置便可实现导入的程序，以达到最大化的兼容。
 * 如果省略了其中某些非必要字段的值，请保持表头存在，对应的列则空置。
 
-| 表头              | 是否必要                                           |
-| ----------------- | -------------------------------------------------- |
-| `count`           | 否，但是建议保留，不排除后续会有`count`不为1的情况 |
-| `gacha_type`      | 是                                                 |
-| `id`              | 是，且大部分App按此字段排序数据                    |
-| `item_id`         | 否，目前官方已经弃用了此字段                       |
-| `item_type`       | 是                                                 |
-| `lang`            | 否，但建议保留，以便国际化                         |
-| `name`            | 是                                                 |
-| `rank_type`       | 否，但建议保留，以便分析                           |
-| `time`            | 否，但建议保留，以便分析                           |
-| `uid`             | 否，但建议将选择权交予用户，保留以便分析           |
-| `uigf_gacha_type` | 是                                                 |
+|表头|是否必要|
+|-|-|
+|`count`|否，但是建议保留，不排除后续会有`count`不为1的情况|
+|`gacha_type`|是|
+|`id`|是，且大部分App按此字段排序数据|
+|`item_id`|否，目前官方已经弃用了此字段|
+|`item_type`|是|
+|`lang`|否，但建议保留，以便国际化|
+|`name`|是|
+|`rank_type`|否，但建议保留，以便分析|
+|`time`|否，但建议保留，以便分析|
+|`uid`|否，但建议将选择权交予用户，保留以便分析|
+|`uigf_gacha_type`|是|
 
 #### 示例
 
-| count | gacha_type | id                  | item_id | item_type | lang  | name     | rank_type | time                | uid       | uigf_gacha_type |
-| ----- | ---------- | ------------------- | ------- | --------- | ----- | -------- | --------- | ------------------- | --------- | --------------- |
-| 1     | 301        | 1613556360008291100 |         | 武器      | zh-cn | 以理服人 | 3         | 2021-02-17 18:45:09 | 123456789 | 301             |
-| ...   | ...        | ...                 | ...     | ...       | ...   | ...      | ...       | ...                 | ...       | ...             |
+|count|gacha_type|id|item_id|item_type|lang|name|rank_type|time|uid|uigf_gacha_type|
+|-|-|-|-|-|-|-|-|-|-|-|
+|1|301|1613556360008291100||武器|zh-cn|以理服人|3|2021-02-17 18:45:09|123456789|301|
+|...|...|...|...|...|...|...|...|...|...|...|
 
 ## Json 格式
 
@@ -193,35 +193,34 @@ Json 格式 由于 与从官方接口获取到的格式一致
 
 除了从 `{gacha_item}` 中提取的 `uid`,`lang`字段，还可以包含我们认可的以下字段
 
-| 字段名               | 值                                                           |
-| -------------------- | ------------------------------------------------------------ |
-| `export_time`        | 导出时间 : `yyyy-MM-dd HH:mm:ss`                             |
-| `export_app`         | 导出此份记录的App名称，详见下方表格                          |
-| `export_app_version` | 导出此份记录的App版本号                                      |
-| `uigf_version`       | 所应用的 `UIGF` 的版本,包含此字段以防 `UIGF` 出现中断性变更时，App无法处理 |
+|字段名|值|说明|
+|-|-|-|
+|`export_time`|导出时间 : `yyyy-MM-dd HH:mm:ss`||
+|`export_timestamp`|导出UNIX时间戳|v2.2+|
+|`export_app`|导出此份记录的App名称，详见下方表格||
+|`export_app_version`|导出此份记录的App版本号||
+|`uigf_version`|所应用的 `UIGF` 的版本,包含此字段以防 `UIGF` 出现中断性变更时，App无法处理||
 
 #### `uigf_version`
 
 合法值
 
-| 值     | 说明                                            | 兼容           |
-| ------ | ----------------------------------------------- | -------------- |
-| `v2.0` | 首个正式版本                                    | v2.0           |
-| `v2.1` | 简化了部分语言表述，与 v2.0在数据格式上完全一致 | v2.1 and lower |
+|值|说明|兼容|
+|-|-|-|
+|`v2.0`|首个正式版本|v2.0|
+|`v2.1`|简化了部分语言表述，与 v2.0在数据格式上完全一致|v2.1 and lower|
+|`v2.2`|新增 `info.export_timestamp` 填充 UNIX 时间戳|v2.2 and lower|
 
 #### `export_app`
 
+未实现导出支持的以 `-` 代替
 
-
-尚未实现导出支持的App以 `-` 代替
-
-
-
-| 导出 App                                                     | `export_app` 的值      |
-| ------------------------------------------------------------ | ---------------------- |
-| [biuuu/genshin wish export](https://github.com/biuuu/genshin-wish-export) | `genshin-wish-export`  |
-| [DGP Studio/Snap.Genshin](https://github.com/DGP-Studio/Snap.Genshin) | `Snap Genshin`         |
-| [Scighost/KeqingNiuza](https://github.com/Scighost/KeqingNiuza) | -                      |
+|导出 App|`export_app` 的值|
+|-|-|
+| [biuuu/genshin wish export](https://github.com/biuuu/genshin-wish-export) | `genshin-wish-export` |
+| [DGP Studio/Snap.Genshin](https://github.com/DGP-Studio/Snap.Genshin) | `Snap Genshin` |
+|[MUK/应急食品](https://gtool.mukapp.top/)|`MUKGenshinTool`|
+| [Scighost/KeqingNiuza](https://github.com/Scighost/KeqingNiuza) | - |
 | [sunfkny/genshin gacha export](https://github.com/sunfkny/genshin-gacha-export) | `genshin-gacha-export` |
-| [voderl/genshin gacha analyzer](https://github.com/voderl/genshin-gacha-analyzer) | -                      |
-| [TremblingMoeNew/DodocoTales](https://github.com/TremblingMoeNew/DodocoTales) | -                      |
+| [TremblingMoeNew/DodocoTales](https://github.com/TremblingMoeNew/DodocoTales) | - |
+| [voderl/genshin gacha analyzer](https://github.com/voderl/genshin-gacha-analyzer) | - |

@@ -3,7 +3,7 @@
 我们正在采用下述的准则  
 [框架设计准则[en-us]](https://docs.microsoft.com/en-us/dotnet/standard/design-guidelines/)  [框架设计准则[zh-cn]](https://docs.microsoft.com/zh-cn/dotnet/standard/design-guidelines/)  
 尽管部分模块尚未遵循，但我们力求新的提交遵循上述准则
-
+ 
 本项目及所有子项目已经迁移至使用 .NET 6 × C# 10 + VS2022 编写环境下  
 主程序使用了 WPF 作为基础 UI 框架  
 *由于 Win UI 3 目前阶段存在大量  BUG  故暂时不使用*
@@ -16,21 +16,11 @@
 <details>
 <summary>调试 DGP.Genshin</summary>
 
+1. 删除 `DGP.Genshin` 对 `DGP.Genshin.Secret` 的共享项目引用
+1. 注释 `App.xaml.cs` 中报错的代码
 1. 生成 `DGP.Snap.AutoVersion` 项目
 1. 生成 `DGP.Genshin` 项目
 1. 将 根目录的 `Metadata` 文件夹复制到 `Build\Debug\net6.0-windows10.0.18362.0`
-1. *注：`MetaData` 文件夹有时不会即时随仓库更新，可以从最新的发行版中提取*
-1. 现在就可以正常调试程序了
-
-如无必要，请勿随意更改`生成事件`与`生成后事件`
-</details>
-
-<details>
-<summary>调试 DGP.Genshin.Mate</summary>
-
-1. 生成 `DGP.Genshin.Mate` 项目
-1. 将 `Build\Debug\net6.0-windows10.0.18362.0` 文件夹下的 `cookielist.dat` 复制到 `Build\Debug-Mate\net6.0-windows10.0.18362.0` 文件夹下
-1. 我们假定你在做上一步前已经完成了一次主程序的调试并输入了有效的cookie并正常退出程序
 1. 现在就可以正常调试程序了
 
 </details>
@@ -38,7 +28,7 @@
 
 ## 提交代码
 
-* 如果修改了子库的代码，一定要确保先发起子库的PR，否则你的提交极有可能是不完整的
+* 如果修改了子库的代码，一定要确保发起子库的PR，否则你的提交是不完整的
 * 对主库的修改应当仅包含界面与界面的业务逻辑
 * 对子库的修改应当仅包含相关API的交互代码
 * 对 `Common` 的要求相对较宽，可以包含任意代码

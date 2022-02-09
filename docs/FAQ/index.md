@@ -16,20 +16,22 @@
 
 ![dotnet_env_warning](/img/dotnet_env_warning.png)
 
-在第一次使用Snap Genshin时，若系统有如上的环境报错，请选择`是`。系统将自动唤起浏览器并跳转到对应的微软.NET运行环境包下载页面，在该页面，选择中间`Run desktop apps`下方的`Download x64`即可下载.NET环境包，安装完成后即可运行Snap Genshin
+在第一次使用 Snap Genshin 时，若系统有如上的环境报错，请选择`是`。系统将自动唤起浏览器并跳转到对应的微软.NET运行环境包下载页面，在该页面，选择中间`Run desktop apps`下方的`Download x64`即可下载.NET环境包，安装完成后即可运行
 
 ![dotnet_env_download](/img/dotnet_env_download.png)
 
 ### 备选方案
 
-如果你仍然无法理解上述的常规解决方案，你可以加入我们的QQ群（910780153）。在群文件中的`Snap.Genshin运行环境` 文件夹中可以找到环境安装包。下载后启动即可一键安装缺失的环境。
+如果你仍然无法理解上述的常规解决方案，你可以尝试加入我们的QQ群（910780153）。  
+在群文件中的`Snap.Genshin运行环境` 文件夹中可以找到环境安装包。  
+下载后启动即可一键安装缺失的环境。  
 
 ## 为什么重启没有解决问题
 
 > 副标题：如何重启 Snap Genshin 主程序
 
-- Snap Genshin 会常驻后台以更新下信息
-    - 所以需要从托盘彻底关闭 Snap Genshin
+- Snap Genshin 会默认常驻后台
+    - 需要从托盘右键退出 Snap Genshin
 
 ![](/img/quit-program.png)
 
@@ -37,30 +39,30 @@
 
 ![launcher-path-error](/img/launcher-path-error.png)
 
-当你在设置Snap Genshin游戏启动器时设置了错误路径，你会看到如此的报错，如果你知道正确的路径或想再次尝试设置，你可以执行以下步骤重置游戏启动器的路径设置
+当你在设置启动游戏时选择了错误路径，你会看到如此的报错，如果你知道正确的路径或想再次尝试设置，你可以执行以下步骤重置游戏启动器的路径设置
 
-- 在系统托盘中，完全退出Snap Genshin
+- 在系统托盘中，完全退出 Snap Genshin
 
 - 在Snap Genshin目录中，找到名为`settings.json`的配置文件，以记事本或其它编辑器方式打开它
 
-- 找到`LauncherPath`字段，删除它的值
+- 找到`LauncherPath`字段，删除它的值（或整行删去）
 
     - 它看起来会是这样的
 
-  ```json
-  {
-      "LauncherPath": ""
-  }
-  ```
+    ```json
+    {
+        "LauncherPath": ""
+    }
+    ```
 
-- 保存并关闭`settings.json`，重新启动Snap Genshin
+- 保存并关闭`settings.json`，重新启动 Snap Genshin
 
 - 此时，再次点击`启动游戏`，你将可以重新设置路径
 
 ## 从其它祈愿记录导出工具转移数据
 
 :::tip
-保持同时使用多个祈愿记录导出工具可以有效地防止因某一工具临时失效而造成数据丢失
+保持同时使用多个祈愿记录导出工具可以有效地防止因某一工具临时失效或停止更新维护而造成的数据丢失
 :::
 
 ### [Genshin Wish Export](https://github.com/biuuu/genshin-wish-export)
@@ -69,7 +71,7 @@
 
 #### 方法一 （推荐）
 
-Genshin Wish Export 提供了原生的，导出为UIGF Json 文件的功能
+Genshin Wish Export 提供了导出为 UIGF Json 文件的功能
 
 - 在主界面点击右上角的`选项`
     - 在`导出到其它工具`一行中选择`导出JSON`，导出 Json 文件
@@ -104,10 +106,10 @@ Genshin Wish Export 提供了原生的，导出为UIGF Json 文件的功能
 解决方案有三，可分别尝试：
 
 1. 升级到最新版 Windows 10 或 Windows 11
-2. 下载安装最新版Edge浏览器
-3. 从微软官方下载并安装 WebView2 环境
+2. 从微软官方下载并安装 WebView2 环境
     1. 访问 https://developer.microsoft.com/zh-cn/microsoft-edge/webview2/
-    2. 拉到底部，找到`Evergreen Standalone Installer` (`常青版独立安装程序`)
+    2. 拉到底部，找到 `Evergreen Standalone Installer` (`常青版独立安装程序`)
     3. 选择`x64` 下载
     4. 按提示安装
+3. 下载安装最新版Edge浏览器
 

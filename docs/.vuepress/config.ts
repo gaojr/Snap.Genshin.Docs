@@ -19,8 +19,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/home/'
       },
       {
-        text: "帮助文档",
-        link: '/guide'
+        text: "指南",
+        link: '/guide/'
       },
       {
         text: '开发',
@@ -106,6 +106,12 @@ export default defineUserConfig<DefaultThemeOptions>({
             hotKeys: ['/']
           }
         }
+      }
+    ],
+    [
+      "vuepress-plugin-clipboard",
+      {
+      align: "top"
       }
     ]
   ]

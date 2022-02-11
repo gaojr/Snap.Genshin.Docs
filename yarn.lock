@@ -1448,6 +1448,11 @@ vue@^3.2.28:
     "@vue/server-renderer" "3.2.29"
     "@vue/shared" "3.2.29"
 
+vuepress-plugin-clipboard@^1.0.6:
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/vuepress-plugin-clipboard/-/vuepress-plugin-clipboard-1.0.6.tgz#7e737f0ea5cdd1c7b8e6161e2a4e5a8170acae55"
+  integrity sha512-m3gekXQiRinqk4C5jr/ESyMba8zXXc9gkFFpuCNQ9uEt8/GB77EFGegpVLA1qA6OK9I35nROqSsjImLdwWMd6g==
+
 vuepress-vite@2.0.0-beta.35:
   version "2.0.0-beta.35"
   resolved "https://registry.yarnpkg.com/vuepress-vite/-/vuepress-vite-2.0.0-beta.35.tgz#22c031289df0a48fea6e41e0be9ecd3fc859401d"

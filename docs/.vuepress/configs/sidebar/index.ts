@@ -3,10 +3,10 @@ import type { SidebarConfig } from '@vuepress/theme-default'
 export const main: SidebarConfig = {
   '/':[
     {
-      text: '快速开始',
+      text: '指南',
       collapsible: false,
       children: [
-        '/guide'
+        '/guide/'
       ]
     },
 

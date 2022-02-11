@@ -5,7 +5,7 @@
 
 ## [Genshin Wish Export](https://github.com/biuuu/genshin-wish-export)
 
-<img src="img/gwe-screenshot.png" alt="gwe" style="zoom:75%;" />
+<img src="/img/gwe-screenshot.png" alt="gwe" style="zoom:75%;" />
 
 ### 方法一 （推荐）
 
@@ -37,7 +37,7 @@ Genshin Wish Export 提供了原生的，导出为UIGF Json 文件的功能
   - 选择刚刚由 genshin-wish-export-uigf-converter 导出的Excel文件
   - 完成数据转移
 
-![gwe-converter-how-to-use](img/gwe-converter-how-to-use.gif)
+![gwe-converter-how-to-use](/img/gwe-converter-how-to-use.gif)
 
 
 

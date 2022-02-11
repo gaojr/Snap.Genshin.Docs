@@ -11,7 +11,7 @@
 - 按照界面提示使用 WebView2 工具或输入 Cookie 添加登录新的帐号
 - 完成后，你就可以在 Snap Genshin 中切换已登录的米游社帐号了
 
-![米游社多帐号切换](img/mhy-account-switch1.png)
+![米游社多帐号切换](/img/mhy-account-switch1.png)
 
 ## FAQ: 为什么 Snap Genshin 中的米游社帐号登录状态经常失效
 

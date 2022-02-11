@@ -1,6 +1,6 @@
 # 游戏启动路径错误
 
-![launcher-path-error](img\launcher-path-error.png)
+![launcher-path-error](/img/launcher-path-error.png)
 
 当你在设置Snap Genshin游戏启动器时设置了错误路径，你会看到如此的报错，如果你知道正确的路径或想再次尝试设置，你可以执行以下步骤重置游戏启动器的路径设置
 

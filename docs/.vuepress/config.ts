@@ -20,20 +20,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: "帮助文档",
-        children:[
-          {
-            text: '快速开始',
-            link: '/guide/'
-          },
-          {
-            text: '操作指南',
-            link: '/features/'
-          },
-          {
-            text: '常见问题',
-            link: '/FAQ/'
-          },
-        ]
+        link: '/guide'
       },
       {
         text: '开发',

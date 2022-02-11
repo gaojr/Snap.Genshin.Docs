@@ -1,5 +1,14 @@
 # 快速开始
 
+## 最低系统要求
+|要求|规格|
+|-|-|
+|**最低可运行系统版本**|Windows 7 SP1 - 6.1.0|
+|**最低兼容系统版本**|**Windows 10 1903 - 10.0.18362.0**|  
+|推荐系统版本|Windows 11 21H1 - 10.0.22000.0|
+|运行时|.NET 6|
+|可选组件|WebView2 Runtime|
+
 ## 下载 Snap Genshin
 
 你可以在 Snap Genshin 的 GitHub 仓库 [release页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为`Publish.zip`的压缩包文件

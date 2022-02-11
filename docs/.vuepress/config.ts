@@ -14,11 +14,15 @@ export default defineUserConfig<DefaultThemeOptions>({
     logo: '/logo/SGLogo.png',
     navbar: [
       {
-        text: '指南',
+        text: '主页',
+        link: '/home/'
+      },
+      {
+        text: '快速开始',
         link: '/guide/'
       },
       {
-        text: '功能',
+        text: '操作指南',
         link: '/features/'
       },
       {
@@ -26,14 +30,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/FAQ/'
       },
       {
-        text: '隐私协议',
-        link: '/privacy/'
-      },
-      {
         text: '开发',
         children: [
           {
-            text: '统一可交换祈愿记录标准 v2.1',
+            text: '统一可交换祈愿记录标准',
             link: '/development/StandardFormat.md'
           },
           {
@@ -50,20 +50,30 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '交流',
         children: [
           {
-            text: 'QQ群',
+            text: '开发',
             children: [
               {
                 text: '982424236',
                 link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
               },
-              {
-                text: '547288075',
-                link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
-              },
+            ]
+          },
+          {
+            text: '反馈',
+            children: [
               {
                 text: '910780153',
                 link: 'https://jq.qq.com/?_wv=1027&k=MHLNhhYJ'
               }
+            ]
+          },
+          {
+            text: '闲聊',
+            children: [
+              {
+                text: '547288075',
+                link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
+              },
             ]
           }
         ]

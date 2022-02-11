@@ -6,8 +6,6 @@ export const main: SidebarConfig = {
       text: '快速开始',
       children: [
         '/guide/README.md',
-        '/guide/quick-start.md',
-        '/guide/account-initialization.md',
       ],
     },
   ],
@@ -17,10 +15,10 @@ export const main: SidebarConfig = {
       text: '操作指南',
       children: [
         '/features/game-launcher.md',
-        '/advanced/account-switch.md',
-        '/advanced/mhy-account-switch.md',
-        '/advanced/unlock-framerate.md',
-        '/advanced/wish-export.md',
+        '/features/account-switch.md',
+        '/features/mhy-account-switch.md',
+        '/features/unlock-framerate.md',
+        '/features/wish-export.md',
       ],
     },
   ],

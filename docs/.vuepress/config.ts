@@ -1,5 +1,6 @@
 import {defineUserConfig} from 'vuepress'
 import type {DefaultThemeOptions} from 'vuepress'
+import { sidebar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
@@ -18,16 +19,21 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/home/'
       },
       {
-        text: '快速开始',
-        link: '/guide/'
-      },
-      {
-        text: '操作指南',
-        link: '/features/'
-      },
-      {
-        text: '常见问题',
-        link: '/FAQ/'
+        text: "帮助文档",
+        children:[
+          {
+            text: '快速开始',
+            link: '/guide/'
+          },
+          {
+            text: '操作指南',
+            link: '/features/'
+          },
+          {
+            text: '常见问题',
+            link: '/FAQ/'
+          },
+        ]
       },
       {
         text: '开发',
@@ -87,6 +93,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: 'https://afdian.net/@DismissedLight'
       },
     ],
+    sidebar: sidebar.main,
     repo: 'DGP-Studio/Snap.Genshin',
     editLink: true,
     editLinkText: '编辑此页',

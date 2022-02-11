@@ -1,18 +1,18 @@
 import type { SidebarConfig } from '@vuepress/theme-default'
 
 export const main: SidebarConfig = {
-  '/guide/': [
+  '/':[
     {
       text: '快速开始',
+      collapsible: false,
       children: [
-        '/guide/README.md',
-      ],
+        '/guide'
+      ]
     },
-  ],
 
-  '/features/': [
     {
       text: '操作指南',
+      collapsible: false,
       children: [
         '/features/game-launcher.md',
         '/features/account-switch.md',
@@ -21,11 +21,10 @@ export const main: SidebarConfig = {
         '/features/wish-export.md',
       ],
     },
-  ],
 
-  '/FAQ/': [
     {
       text: '常见问题',
+      collapsible: false,
       children: [
         '/FAQ/Dell-AWCC-error.md',
         '/FAQ/dotNET-env.md',
@@ -34,6 +33,6 @@ export const main: SidebarConfig = {
         '/FAQ/transfer-from-other-wish-export.md',
         '/FAQ/WebView2-env.md',
       ],
-    },
-  ],
+    }
+  ]
 }

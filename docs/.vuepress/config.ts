@@ -115,7 +115,8 @@ export default defineUserConfig<DefaultThemeOptions>({
       }
     ],
     [
-      "vuepress-plugin-clipboard", {
+      "vuepress-plugin-clipboard",
+    {
       align: "top"
     }
     ]

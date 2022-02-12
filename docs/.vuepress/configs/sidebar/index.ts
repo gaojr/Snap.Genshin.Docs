@@ -20,6 +20,7 @@ export const main: SidebarConfig = {
         '/documents/features/mhy-account-switch.md',
         '/documents/features/unlock-framerate.md',
         '/documents/features/wish-export.md',
+        '/documents/features/customize-webpage.md'
       ],
     },
 
@@ -33,6 +34,14 @@ export const main: SidebarConfig = {
         '/documents/FAQ/launcher-path-error.md',
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',
+      ],
+    },
+
+    {
+      text: '声明文档',
+      collapsible: false,
+      children: [
+        '/documents/statement/user-privacy-notice.md',
       ],
     }
   ],

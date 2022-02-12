@@ -19,8 +19,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         link: '/home/'
       },
       {
-        text: "指南",
-        link: '/guide/'
+        text: "帮助文档",
+        link: '/documents'
       },
       {
         text: '开发',

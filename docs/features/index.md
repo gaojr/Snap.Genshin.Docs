@@ -94,17 +94,20 @@ Snap Genshin 可以用作游戏启动器，直接启动游戏本体，而不加�
 
 #### 网址
 ``` http
-https://webstatic.mihoyo.com/app/ys-map-cn/index.html#/map/2
+https://webstatic.mihoyo.com/app/ys-map-cn
 ```
 #### 脚本
 ``` js
-setTimeout(function () { 
-    var divs = document.getElementsByClassName("bbs-qr"); 
-    for (i = 0; i < divs.length; i++) {
-        if (divs[i] != null)
-            divs[i].parentNode.removeChild(divs[i])
+var hide = function() {
+    try {
+        document.evaluate('//*[@id="root"]/div[2]/div[2]/div[16]',document).iterateNext().style.display = 'none';
+        document.evaluate('//*[@id="root"]/div[2]/div[1]',document).iterateNext().style.display = 'none';
+        clearInterval(hideTimer);
     }
-}, 5000);
+    catch {
+    }
+};
+var hideTimer = setInterval(hide, 10);
 ```
 用于去除右下角的二维码角标
 

@@ -6,7 +6,8 @@ export const main: SidebarConfig = {
       text: '开始使用',
       collapsible: false,
       children: [
-        '/documents'
+        '/documents/',
+        '/documents/features-overview',
       ]
     },
 

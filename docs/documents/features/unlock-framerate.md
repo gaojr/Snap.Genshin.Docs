@@ -11,4 +11,4 @@
 - 下拉至底部，勾选`解锁帧率上限`
 - 设置你需要的指定帧数上限（下图以设置144帧为上限为例）
 
-![](/img/unlock-framerate.png)
+![解锁帧数上限](https://img.snapgenshin.com/imgs/2022/02/bb148d0a89d700b9.png)

@@ -6,7 +6,7 @@
 
 ## [Genshin Wish Export](https://github.com/biuuu/genshin-wish-export)
 
-<img src="/img/gwe-screenshot.png" alt="gwe" style="zoom:75%;" />
+<img src="https://img.snapgenshin.com/imgs/2022/02/34758cb3588d55fd.png" alt="gwe" style="zoom:75%;" />
 
 Genshin Wish Export 提供了导出为 UIGF Json 文件的功能
 

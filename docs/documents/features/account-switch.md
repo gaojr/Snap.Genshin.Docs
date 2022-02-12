@@ -13,8 +13,9 @@
 
 - 在弹窗中，为该新登录的账号设置一个易于记忆的名称，随后确认
 
-  ![account-switch1](/img/account-switch1.png)
+  ![account-switch1](https://img.snapgenshin.com/imgs/2022/02/16d2465a298f228f.png)
 
 - 之后，你便可以在`启动游戏`中切换账号并直接启动游戏了
+  - 切换为B服帐号时用户需自备SDK并添加到目录：`%YuanShen.exe所在目录%\YuanShen_Data\Plugins`
 
-  ![account-switch2](/img/account-switch2.png)
+  ![account-switch2](https://img.snapgenshin.com/imgs/2022/02/eecd49e6cea49884.png)

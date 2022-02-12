@@ -5,4 +5,4 @@
 - Snap Genshin 会默认常驻后台
     - 需要从托盘右键退出 Snap Genshin
 
-![](/img/quit-program.png)
+![](https://img.snapgenshin.com/imgs/2022/02/5edd42d56672bcc3.png)

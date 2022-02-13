@@ -10,21 +10,19 @@ export default (request: VercelRequest, response: VercelResponse) => {
       'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
     }
   }, result => {
-    let data;
+    let data = ''
     result.on('data', chunk => {
-      data += chunk;
+      data += chunk
     })
     result.on('end', () => {
-      console.warn(data)
-      console.log(typeof data)
-      let downloadLink: string = JSON.parse(data).assets[0].browser_download_url
+      let downloadLink: string = JSON.parse(data)
       let fastDownloadLink: string = downloadLink.replace('github.com', 'download.fastgit.org')
       response.status(200).send(`
         <script>window.location.replace(${fastDownloadLink})</script>
       `)
     })
   }).on('error', error => {
-    response.status(500).send(JSON.stringify(error))
+    response.status(500).send(JSON.stringify(error, null, 2))
     console.error(error)
   })
 };

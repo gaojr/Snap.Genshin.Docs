@@ -4,11 +4,13 @@ const https = require('https')
 
 export default (request: VercelRequest, response: VercelResponse) => {
   https.get('https://api.github.com/repos/DGP-Studio/Snap.Genshin/releases/latest', result => {
-    let data = ''
+    let data;
     result.on('data', chunk => {
       data += chunk;
     })
     result.on('end', () => {
+      console.warn(data)
+      console.warn(typeof data)
       let downloadLink: string = JSON.parse(data).assets[0].browser_download_url
       let fastDownloadLink: string = downloadLink.replace('github.com', 'download.fastgit.org')
       response.status(200).send(`

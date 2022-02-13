@@ -24,7 +24,7 @@ export default (request: VercelRequest, response: VercelResponse) => {
       } = JSON.parse(data)
       let fastDownloadLink: string = downloadLink.replace('github.com', 'download.fastgit.org')
       response.status(200).send(`
-        <script>window.location.replace(${fastDownloadLink})</script>
+        <script>window.location.replace('${fastDownloadLink}')</script>
       `)
     })
   }).on('error', error => {

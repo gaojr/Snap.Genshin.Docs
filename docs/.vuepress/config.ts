@@ -82,7 +82,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '下载',
         children: [
           {
-            text: '国内用户',
+            text: '天空岛用户',
             children: [
               {
                 text: 'FastGit',
@@ -91,11 +91,20 @@ export default defineUserConfig<DefaultThemeOptions>({
             ]
           },
           {
-            text: '国外用户',
+            text: '世界树用户',
             children: [
               {
                 text: 'Github',
                 link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=github'
+              }
+            ]
+          },
+          {
+            text: '须弥用户',
+            children: [
+              {
+                text: 'P2P',
+                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
               }
             ]
           }

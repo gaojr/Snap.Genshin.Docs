@@ -80,7 +80,26 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载',
-        link: 'https://github.com/DGP-Studio/Snap.Genshin/releases'
+        children: [
+          {
+            text: '国内用户',
+            children: [
+              {
+                text: 'Fastgit',
+                link: '/api/getDownloadLink?source=fastgit'
+              }
+            ]
+          },
+          {
+            text: 'International users',
+            children: [
+              {
+                text: 'Github',
+                link: '/api/getDownloadLink?source=github'
+              }
+            ]
+          }
+        ]
       },
       {
         text: '爱发电',

@@ -6,7 +6,7 @@ heroText: Snap Genshin
 tagline: null
 actions:
   - text: 立即下载
-    link: https://github.com/DGP-Studio/Snap.Genshin/releases
+    link: /api/getDownloadLink
     type: secondary
   - text: 快速开始
     link: /guide/

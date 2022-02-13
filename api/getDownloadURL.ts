@@ -5,7 +5,7 @@ const https = require('https')
 
 export default (request: VercelRequest, response: VercelResponse) => {
   /*定义返回数据的函数*/
-  function responseDownloadURL(URL): void {
+  function responseDownloadURL(URL: string): void {
     response.status(200).send(`
       <!DOCTYPE html>
       <html lang="zh-CN">

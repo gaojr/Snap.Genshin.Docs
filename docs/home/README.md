@@ -6,7 +6,7 @@ heroText: Snap Genshin
 tagline: null
 actions:
   - text: 立即下载
-    link: /api/getDownloadLink
+    link: https://snapgenshin.vercel.app/api/getDownloadLink?source=fastgit
     type: secondary
   - text: 快速开始
     link: /guide/

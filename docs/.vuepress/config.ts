@@ -86,7 +86,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'Fastgit',
-                link: '/api/getDownloadLink?source=fastgit'
+                link: 'https://snapgenshin.vercel.app/api/getDownloadLink?source=fastgit'
               }
             ]
           },
@@ -95,7 +95,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'Github',
-                link: '/api/getDownloadLink?source=github'
+                link: 'https://snapgenshin.vercel.app/api/getDownloadLink?source=github'
               }
             ]
           }

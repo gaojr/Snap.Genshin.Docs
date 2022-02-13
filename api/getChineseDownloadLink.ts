@@ -22,10 +22,11 @@ export default (request: VercelRequest, response: VercelResponse) => {
           }
         ]
       } = JSON.parse(data)
+      let fastDownloadLink: string = downloadLink.replace('github.com', 'download.fastgit.org')
       response.status(200).send(`
-        <p>If the download has started, you can close this tab. If not, please click the link below.</p>
-        <p><a href="${ downloadLink }">${ downloadLink }</a></p>
-        <script>window.location.replace('${ downloadLink }')</script>
+        <p>如果下载已经开始，您可以关闭这个标签页。如果没有，请点击下面的链接。</p>
+        <p><a href="${ fastDownloadLink }">${ fastDownloadLink }</a></p>
+        <script>window.location.replace('${ fastDownloadLink }')</script>
       `)
     })
   }).on('error', error => {

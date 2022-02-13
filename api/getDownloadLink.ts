@@ -15,7 +15,13 @@ export default (request: VercelRequest, response: VercelResponse) => {
       data += chunk
     })
     result.on('end', () => {
-      let downloadLink: string = JSON.parse(data)
+      let {
+        assets: [
+          {
+            browser_download_url: downloadLink
+          }
+        ]
+      } = JSON.parse(data)
       let fastDownloadLink: string = downloadLink.replace('github.com', 'download.fastgit.org')
       response.status(200).send(`
         <script>window.location.replace(${fastDownloadLink})</script>

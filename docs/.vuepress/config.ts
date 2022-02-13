@@ -85,17 +85,17 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '国内用户',
             children: [
               {
-                text: 'Fastgit',
-                link: 'https://snapgenshin.vercel.app/api/getDownloadLink?source=fastgit'
+                text: 'FastGit',
+                link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=fastgit'
               }
             ]
           },
           {
-            text: 'International users',
+            text: '国外用户',
             children: [
               {
                 text: 'Github',
-                link: 'https://snapgenshin.vercel.app/api/getDownloadLink?source=github'
+                link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=github'
               }
             ]
           }

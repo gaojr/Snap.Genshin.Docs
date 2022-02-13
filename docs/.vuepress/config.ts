@@ -75,7 +75,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '下载',
         children: [
           {
-            text: '天空岛用户',
+            text: '国内用户',
             children: [
               {
                 text: 'FastGit',
@@ -84,7 +84,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             ]
           },
           {
-            text: '世界树用户',
+            text: '海外用户',
             children: [
               {
                 text: 'Github',
@@ -92,7 +92,7 @@ export default defineUserConfig<DefaultThemeOptions>({
               }
             ]
           },
-          {
+          /*{
             text: '须弥用户',
             children: [
               {
@@ -100,7 +100,7 @@ export default defineUserConfig<DefaultThemeOptions>({
                 link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
               }
             ]
-          }
+          }*/
         ]
       },
       {

@@ -28,4 +28,4 @@ yarn docs:dev
 
 ## 感谢
 
-![WebStorm logo](https://resources.jetbrains.com/storage/products/company/brand/logos/WebStorm.png)
+[Jet Brains](https://www.jetbrains.com/zh-cn/community/opensource/#support)

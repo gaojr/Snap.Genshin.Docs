@@ -51,15 +51,15 @@ export async function onRequestGet(context) {
     /*判断返回哪个源的下载地址*/
     if (source === 'github') {
       /*返回 Github 提供的下载地址*/
-      return new Response(responseDownloadURL(downloadURL))
+      return responseDownloadURL(downloadURL)
     } else if (source === 'cloudflare') {
       /*返回 CloudflareWorkers 提供的下载地址*/
-      return new Response(responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`))
+      return responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`)
     } else {
       /*将 Github 提供的下载地址转换成 FastGit 加速后的下载地址并返回*/
-      return new Response(responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org')))
+      return responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org'))
     }
   } catch (error) {
-    return new Response(JSON.stringify(error, null, 2))
+    return JSON.stringify(error, null, 2)
   }
 }

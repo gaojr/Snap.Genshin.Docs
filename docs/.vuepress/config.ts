@@ -78,6 +78,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '国内用户',
             children: [
               {
+                text: 'Cloudflare',
+                link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=cloudflare'
+              },
+              {
                 text: 'FastGit',
                 link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=fastgit'
               }

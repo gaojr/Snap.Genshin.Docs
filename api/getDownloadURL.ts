@@ -58,6 +58,9 @@ export default (request: VercelRequest, response: VercelResponse) => {
       if (source === 'github') {
         /*返回 Github 提供的下载地址*/
         responseDownloadURL(downloadURL)
+      } else if (source === 'cloudflare') {
+        /*返回 CloudflareWorkers 提供的下载地址*/
+        responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`)
       } else {
         /*将 Github 提供的下载地址转换成 FastGit 加速后的下载地址并返回*/
         responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org'))

@@ -1,5 +1,3 @@
-const https = require('https')
-
 export async function onRequestGet(context) {
   /*定义返回数据的函数*/
   const {request} = context

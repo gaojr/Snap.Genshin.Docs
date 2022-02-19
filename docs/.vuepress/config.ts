@@ -79,11 +79,11 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'Cloudflare',
-                link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=cloudflare'
+                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=cloudflare'
               },
               {
                 text: 'FastGit',
-                link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=fastgit'
+                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=fastgit'
               }
             ]
           },
@@ -92,7 +92,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'Github',
-                link: 'https://snapgenshin.vercel.app/api/getDownloadURL?source=github'
+                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=github'
               }
             ]
           },

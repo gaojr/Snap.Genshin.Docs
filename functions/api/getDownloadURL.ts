@@ -1,9 +1,10 @@
 export async function onRequestGet(context) {
-  /*定义返回数据的函数*/
+  /*从 context 对象解构请求信息*/
   const {request} = context
 
-  function responseDownloadURL(URL: string): string {
-    return `
+  function responseDownloadURL(URL: string): object {
+    /*返回 HTML 模板的函数*/
+    return new Response(`
       <!DOCTYPE html>
       <html lang="zh-CN">
       <head>
@@ -19,10 +20,15 @@ export async function onRequestGet(context) {
         <script>window.location.replace('${URL}')</script>
       </body>
       </html>
-    `
+    `, {
+      headers: {
+        'content-type': 'text/html; charset=utf-8'
+      }
+    })
   }
 
   function getQueryString(url: string, name: string): string | null {
+    /*获取 url 请求参数的函数*/
     const reg = new RegExp(`(\\?|&)${name}=([^&]*)(&|$)`, 'i');
     const query = url.match(reg);
     if (query != null) return decodeURI(query[2]);
@@ -39,6 +45,7 @@ export async function onRequestGet(context) {
         'user-agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/98.0.4758.82 Safari/537.36'
       }
     })
+    /*将返回的字符串解析为对象*/
     const data = await res.json()
     /*使用解构赋值从 data 中提取下载链接*/
     const {
@@ -51,27 +58,16 @@ export async function onRequestGet(context) {
     /*判断返回哪个源的下载地址*/
     if (source === 'github') {
       /*返回 Github 提供的下载地址*/
-      return new Response(responseDownloadURL(downloadURL), {
-        headers: {
-          'content-type': 'text/html; charset=utf-8'
-        }
-      })
+      return responseDownloadURL(downloadURL)
     } else if (source === 'cloudflare') {
       /*返回 CloudflareWorkers 提供的下载地址*/
-      return new Response(responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`), {
-        headers: {
-          'content-type': 'text/html; charset=utf-8'
-        }
-      })
+      return responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`)
     } else {
       /*将 Github 提供的下载地址转换成 FastGit 加速后的下载地址并返回*/
-      return new Response(responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org')), {
-        headers: {
-          'content-type': 'text/html; charset=utf-8'
-        }
-      })
+      return responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org'))
     }
   } catch (error) {
+    /*返回错误信息*/
     return new Response(JSON.stringify(error, null, 2))
   }
 }

@@ -1,13 +1,9 @@
 export async function onRequestGet(context) {
-  function getQueryString(url: string, name: string): string | null {
-    const reg = new RegExp(`(\\?|&)${name}=([^&]*)(&|$)`, 'i');
-    const query = url.match(reg);
-    if (query != null) return decodeURI(query[2]);
-    return null;
-  }
-
-  function responseDownloadURL(URL: string): string {
-    return `
+  /*定义返回数据的函数*/
+  const {request} = context
+  try {
+    function responseDownloadURL(URL: string): string {
+      return `
       <!DOCTYPE html>
       <html lang="zh-CN">
       <head>
@@ -24,11 +20,14 @@ export async function onRequestGet(context) {
       </body>
       </html>
     `
-  }
+    }
 
-  try {
-    /*定义返回数据的函数*/
-    const {request} = context
+    function getQueryString(url: string, name: string): string | null {
+      const reg = new RegExp(`(\\?|&)${name}=([^&]*)(&|$)`, 'i');
+      const query = url.match(reg);
+      if (query != null) return decodeURI(query[2]);
+      return null;
+    }
 
     /*从请求参数中提取 source 参数*/
     const source = getQueryString(request.url, 'source')
@@ -51,15 +50,15 @@ export async function onRequestGet(context) {
     /*判断返回哪个源的下载地址*/
     if (source === 'github') {
       /*返回 Github 提供的下载地址*/
-      return responseDownloadURL(downloadURL)
+      return new Response(responseDownloadURL(downloadURL))
     } else if (source === 'cloudflare') {
       /*返回 CloudflareWorkers 提供的下载地址*/
-      return responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`)
+      return new Response(responseDownloadURL(`https://download.zhouhaixian.workers.dev/${downloadURL}`))
     } else {
       /*将 Github 提供的下载地址转换成 FastGit 加速后的下载地址并返回*/
-      return responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org'))
+      return new Response(responseDownloadURL(downloadURL.replace('github.com', 'download.fastgit.org')))
     }
   } catch (error) {
-    return error
+    return new Response(JSON.stringify(error, null, 2))
   }
 }

@@ -47,7 +47,7 @@ export async function onRequestGet(context) {
           browser_download_url: downloadURL
         }
       ]
-    } = JSON.parse(data)
+    } = data
     /*判断返回哪个源的下载地址*/
     if (source === 'github') {
       /*返回 Github 提供的下载地址*/

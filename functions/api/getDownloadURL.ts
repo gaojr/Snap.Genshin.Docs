@@ -1,9 +1,9 @@
 export async function onRequestGet(context) {
   /*定义返回数据的函数*/
   const {request} = context
-  try {
-    function responseDownloadURL(URL: string): string {
-      return `
+
+  function responseDownloadURL(URL: string): string {
+    return `
       <!DOCTYPE html>
       <html lang="zh-CN">
       <head>
@@ -20,15 +20,16 @@ export async function onRequestGet(context) {
       </body>
       </html>
     `
-    }
+  }
 
-    function getQueryString(url: string, name: string): string | null {
-      const reg = new RegExp(`(\\?|&)${name}=([^&]*)(&|$)`, 'i');
-      const query = url.match(reg);
-      if (query != null) return decodeURI(query[2]);
-      return null;
-    }
+  function getQueryString(url: string, name: string): string | null {
+    const reg = new RegExp(`(\\?|&)${name}=([^&]*)(&|$)`, 'i');
+    const query = url.match(reg);
+    if (query != null) return decodeURI(query[2]);
+    return null;
+  }
 
+  try {
     /*从请求参数中提取 source 参数*/
     const source = getQueryString(request.url, 'source')
     /*使用 Github 的 api 获取仓库最新的 release 信息*/

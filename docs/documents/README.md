@@ -13,6 +13,8 @@
 
 你可以在导航栏上找到下载按钮
 
+建议国内用户通过 [腾讯云对象存储](https://download.snapgenshin.com/latest/Publish.zip) 下载，海外用户通过 [Github](https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=github) 下载
+
 ~~你可以在 Snap Genshin 的 GitHub 仓库 [release页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为`Publish.zip`的压缩包文件~~
 
 ## 启动 Snap Genshin

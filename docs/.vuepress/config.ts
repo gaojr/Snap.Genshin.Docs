@@ -78,6 +78,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '国内用户',
             children: [
               {
+                text: '腾讯云',
+                link: 'https://download.snapgenshin.com/latest/Publish.zip'
+              },
+              {
                 text: 'Cloudflare',
                 link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=cloudflare'
               },

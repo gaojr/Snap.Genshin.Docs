@@ -15,7 +15,7 @@
 
 ![home.png](https://img.snapgenshin.com/imgs/2022/02/08b4c93600a0b9b6.png)
 
-## 祈愿记录
+## 祈愿记录 <Badge type="tip" text="UIGF" vertical="top" />
 
 > 支持多UID切换，完全支持2.3更新后的双角色UP池  
 > 从游戏日志文件中获取Url/手动输入Url 双模式  

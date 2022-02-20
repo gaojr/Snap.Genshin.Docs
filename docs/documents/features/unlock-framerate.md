@@ -1,6 +1,6 @@
 # 解锁帧数上限
 
-- [设置Snap Genshin启动器](#启动游戏)
+- [设置Snap Genshin启动器](./game-launcher.md)
 - 在系统托盘内彻底退出Snap Genshin程序
     - 以**管理员权限**启动Snap Genshin
         - 你亦可以选中Snap Genshin主程序，右键菜单中选择`属性`

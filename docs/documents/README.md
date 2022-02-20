@@ -15,6 +15,8 @@
 
 建议国内用户通过 [腾讯云对象存储](https://download.snapgenshin.com/latest/Publish.zip) 下载，海外用户通过 [Github](https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=github) 下载
 
+~~你可以在 Snap Genshin 的 GitHub 仓库 [release页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为`Publish.zip`的压缩包文件~~
+
 ::: details 腾讯云对象存储下载帮助
 
 为了改善境内的下载速度，我们做了许多努力，最终发现只有在国内搭建下载镜像才能实现我们想要的效果
@@ -23,17 +25,17 @@
 
 - /
   - latest/
-  - 2022.2.19.20<Badge type="tip" text="版本号" vertical="top" />/
-  - 2022.2.18.18<Badge type="tip" text="版本号" vertical="top" />/
-  - 2022.2.15.20<Badge type="tip" text="版本号" vertical="top" />/
+  - 2022.2.19.20/
+  - 2022.2.18.18/
+  - 2022.2.15.20/
 
-所以当你想下载旧版本的时候，可以将下载链接中的 "latest" 替换为版本号，例如：`https://download.snapgenshin.com/2022.2.19.20/Publish.zip`
+所以当你想下载旧版本的时候，可以将下载链接中的 `latest` 替换为版本号，例如：`https://download.snapgenshin.com/2022.2.19.20/Publish.zip`
+
+---
 
 `https://download.snapgenshin.com/latest/Publish.zip` 将始终指向最新的发行版
 
 :::
-
-~~你可以在 Snap Genshin 的 GitHub 仓库 [release页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为`Publish.zip`的压缩包文件~~
 
 ## 启动 Snap Genshin
 

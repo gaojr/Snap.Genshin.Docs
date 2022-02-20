@@ -5,7 +5,7 @@
 米游社账号切换详见： [米游社多账号切换](./mhy-account-switch.md)
 :::
 
-- [设置Snap Genshin](#启动游戏)
+- [设置Snap Genshin](./game-launcher.md)
 
 - 启动原神游戏本体，手动登录到另一个账号
 

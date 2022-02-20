@@ -1,4 +1,4 @@
-# 祈愿记录导出
+# 祈愿记录导出 <Badge type="tip" text="支持 UIGF" vertical="top" />
 
 - 打开原神游戏本体，进入祈愿界面，点击`历史记录`
 - 启动或切换到 Snap Genshin

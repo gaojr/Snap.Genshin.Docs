@@ -29,7 +29,7 @@
   - 2022.2.18.18/
   - 2022.2.15.20/
 
-所以当你想下载旧版本的时候，可以将下载链接中的 `latest` 替换为版本号，例如：`https://download.snapgenshin.com/2022.2.19.20/Publish.zip`
+所以当你想下载旧版本的时候，可以将下载链接中的 `latest` 替换为版本号，例如：`https://download.snapgenshin.com/2022.2.19.20/Publish.zip`。
 
 ---
 

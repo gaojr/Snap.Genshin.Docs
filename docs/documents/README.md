@@ -33,7 +33,7 @@
 
 ---
 
-`https://download.snapgenshin.com/latest/Publish.zip` 将始终指向最新的发行版
+`https://download.snapgenshin.com/latest/Publish.zip` 将始终指向最新的发行版。
 
 :::
 

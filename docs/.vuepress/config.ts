@@ -82,7 +82,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载',
-        link: 'https://download.snapgenshin.com/latest/Publish.zip'
+        link: 'https://download.snapgenshin.com/Publish.zip'
       },
       {
         text: '爱发电',

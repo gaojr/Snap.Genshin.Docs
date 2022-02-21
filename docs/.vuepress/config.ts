@@ -82,43 +82,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载',
-        children: [
-          {
-            text: '国内用户',
-            children: [
-              {
-                text: '腾讯云',
-                link: 'https://download.snapgenshin.com/latest/Publish.zip'
-              },
-              {
-                text: 'Cloudflare',
-                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=cloudflare'
-              },
-              {
-                text: 'FastGit',
-                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=fastgit'
-              }
-            ]
-          },
-          {
-            text: '海外用户',
-            children: [
-              {
-                text: 'Github',
-                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=github'
-              }
-            ]
-          },
-          /*{
-            text: '须弥用户',
-            children: [
-              {
-                text: 'P2P',
-                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
-              }
-            ]
-          }*/
-        ]
+        link: 'https://download.snapgenshin.com/latest/Publish.zip'
       },
       {
         text: '爱发电',

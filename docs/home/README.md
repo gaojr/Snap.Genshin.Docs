@@ -5,8 +5,8 @@ heroImage: /logo/Home.png
 heroText: Snap Genshin
 tagline: null
 actions:
-  - text: 下载程序
-    link: https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=cloudflare
+  - text: 爱发电
+    link: https://afdian.net/@DismissedLight
     type: secondary
   - text: 帮助文档
     link: /documents/

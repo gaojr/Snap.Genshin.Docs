@@ -13,11 +13,7 @@
 
 你可以在 Snap Genshin 的 GitHub 仓库 [release页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为`Publish.zip`的压缩包文件
 
-国内用户若难以连接，可通过 [腾讯云对象存储](https://download.snapgenshin.com/latest/Publish.zip) 加速下载
-
----
-
-
+国内用户可通过 [`https://download.snapgenshin.com/latest/Publish.zip`](https://download.snapgenshin.com/latest/Publish.zip) 下载。若想下载旧版本，可将 `latest` 替换为版本号。
 
 ## 启动 Snap Genshin
 

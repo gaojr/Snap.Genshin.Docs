@@ -84,15 +84,23 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '下载',
         children: [
           {
-            text: '腾讯云',
-            link: 'https://download.snapgenshin.com/Publish.zip'
+            text: '国内用户',
+            children: [
+              {
+                text: '腾讯云',
+                link: 'https://download.snapgenshin.com/latest/Publish.zip'
+              }
+            ]
           },
           {
-            text: 'Github',
-            link: 'https://github.com/DGP-Studio/Snap.Genshin/releases'
+            text: '海外用户',
+            children: [
+              {
+                text: 'Github',
+                link: 'https://github.com/DGP-Studio/Snap.Genshin/releases/latest/download/Publish.zip'
+              }
+            ]
           },
-        ]
-      },
       {
         text: '爱发电',
         link: 'https://afdian.net/@DismissedLight'

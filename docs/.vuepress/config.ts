@@ -82,7 +82,16 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载',
-        link: 'https://download.snapgenshin.com/Publish.zip'
+        children: [
+          {
+            text: '腾讯云',
+            link: 'https://download.snapgenshin.com/Publish.zip'
+          },
+          {
+            text: 'Github',
+            link: 'https://github.com/DGP-Studio/Snap.Genshin/releases'
+          },
+        ]
       },
       {
         text: '爱发电',

@@ -43,16 +43,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '交流',
         children: [
           {
-            text: '开发',
-            children: [
-              {
-                text: '982424236',
-                link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
-              },
-            ]
-          },
-          {
-            text: '反馈',
+            text: '问题反馈-主群',
             children: [
               {
                 text: '910780153',
@@ -61,14 +52,32 @@ export default defineUserConfig<DefaultThemeOptions>({
             ]
           },
           {
-            text: '闲聊',
+            text: '游戏交流-二群',
             children: [
               {
                 text: '547288075',
                 link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
               },
             ]
-          }
+          },
+          {
+            text: '游戏交流-三群',
+            children: [
+              {
+                text: '547288075',
+                link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'
+              },
+            ]
+          },
+          {
+            text: '程序开发',
+            children: [
+              {
+                text: '982424236',
+                link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
+              },
+            ]
+          },
         ]
       },
       {

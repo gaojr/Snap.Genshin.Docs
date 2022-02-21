@@ -64,7 +64,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '游戏交流-三群',
             children: [
               {
-                text: '547288075',
+                text: '240095771',
                 link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'
               },
             ]

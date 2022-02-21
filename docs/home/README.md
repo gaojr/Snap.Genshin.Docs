@@ -5,8 +5,8 @@ heroImage: /logo/Home.png
 heroText: Snap Genshin
 tagline: null
 actions:
-  - text: 爱发电
-    link: https://afdian.net/@DismissedLight
+  - text: 立即下载
+    link: https://download.snapgenshin.com/Publish.zip
     type: secondary
   - text: 帮助文档
     link: /documents/

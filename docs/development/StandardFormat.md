@@ -1,4 +1,4 @@
-# 统一可交换祈愿记录标准 v 2.2
+# 统一可交换祈愿记录标准 v2.2
 
 > Uniformed Interchangeable GachaLog Format standard (UIGF)
 

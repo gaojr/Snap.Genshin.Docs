@@ -26,4 +26,4 @@ yarn docs:dev
 
 ## 感谢
 
-[Jet Brains](https://www.jetbrains.com/zh-cn/community/opensource/#support)
+[JetBrains](https://www.jetbrains.com/zh-cn/community/opensource/#support)

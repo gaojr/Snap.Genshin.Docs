@@ -43,16 +43,7 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '交流',
         children: [
           {
-            text: '开发',
-            children: [
-              {
-                text: '982424236',
-                link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
-              },
-            ]
-          },
-          {
-            text: '反馈',
+            text: '问题反馈-主群',
             children: [
               {
                 text: '910780153',
@@ -61,55 +52,37 @@ export default defineUserConfig<DefaultThemeOptions>({
             ]
           },
           {
-            text: '闲聊',
+            text: '游戏交流-二群',
             children: [
               {
                 text: '547288075',
                 link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
               },
             ]
-          }
+          },
+          {
+            text: '游戏交流-三群',
+            children: [
+              {
+                text: '240095771',
+                link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'
+              },
+            ]
+          },
+          {
+            text: '程序开发',
+            children: [
+              {
+                text: '982424236',
+                link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
+              },
+            ]
+          },
         ]
       },
       {
         text: '下载',
-        children: [
-          {
-            text: '国内用户',
-            children: [
-              {
-                text: '腾讯云',
-                link: 'https://download.snapgenshin.com/latest/Publish.zip'
-              },
-              {
-                text: 'Cloudflare',
-                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=cloudflare'
-              },
-              {
-                text: 'FastGit',
-                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=fastgit'
-              }
-            ]
-          },
-          {
-            text: '海外用户',
-            children: [
-              {
-                text: 'Github',
-                link: 'https://snap-genshin-docs.pages.dev/api/getDownloadURL?source=github'
-              }
-            ]
-          },
-          /*{
-            text: '须弥用户',
-            children: [
-              {
-                text: 'P2P',
-                link: 'https://www.bilibili.com/video/BV1GJ411x7h7'
-              }
-            ]
-          }*/
-        ]
+        link: 'https://download.snapgenshin.com/Publish.zip'
       },
       {
         text: '爱发电',

@@ -34,6 +34,7 @@ export const main: SidebarConfig = {
         '/documents/FAQ/launcher-path-error.md',
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',
+        '/documents/FAQ/failed-load.md',
       ],
     },
 

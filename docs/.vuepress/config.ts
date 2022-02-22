@@ -101,6 +101,8 @@ export default defineUserConfig<DefaultThemeOptions>({
               }
             ]
           },
+        ],
+      },
       {
         text: '爱发电',
         link: 'https://afdian.net/@DismissedLight'

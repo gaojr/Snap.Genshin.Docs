@@ -4,7 +4,7 @@ Snap Genshin是一个免费的开源程序，你的赞助会帮助这个项目�
 
 ## 爱发电
 
-- https://afdian.net/@DismissedLight
+- [https://afdian.net/@DismissedLight](https://afdian.net/@DismissedLight)
   - 你可以在爱发电上单次或每月地赞助 Snap Genshin
   - 该平台支持支付宝、微信支付和 PayPal
 

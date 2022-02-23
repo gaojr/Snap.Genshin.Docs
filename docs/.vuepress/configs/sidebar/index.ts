@@ -43,6 +43,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/documents/statement/user-privacy-notice.md',
+        '/documents/statement/sponsor.md',
       ],
     }
   ],

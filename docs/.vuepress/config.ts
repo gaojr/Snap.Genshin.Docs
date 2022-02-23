@@ -104,8 +104,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         ],
       },
       {
-        text: '爱发电',
-        link: 'https://afdian.net/@DismissedLight'
+        text: '赞助项目',
+        link: '/documents/statement/sponsor.md'
       },
     ],
     sidebar: sidebar.main,

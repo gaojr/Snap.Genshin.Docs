@@ -2,7 +2,7 @@
 
 - [设置Snap Genshin启动器](./game-launcher.md)
 - 在系统托盘右键Snap Genshin程序图标
-- 选择“以管理员模式重启”
+    - 选择“以管理员模式重启”
         - 你亦可以选中Snap Genshin主程序，右键菜单中选择`属性`
         - 进入`Compatibility`（`兼容性`）标签页
         - 勾选`Run this program as an administrator` （`以管理员身份运行此程序`）

@@ -41,3 +41,11 @@
 > 灵活计算
 
 ![promotion.png](https://img.snapgenshin.com/imgs/2022/02/685030e3521bd5b3.png)
+
+
+## 树脂小组件
+原桌面树脂小组件已弃用，目前使用xbox小组件（测试）作为替代方案
+
+![xbox小组件](https://user-images.githubusercontent.com/52618207/155871932-b903c60f-0c29-4b52-8583-dd56f32c41cf.png)
+
+从[Github](https://github.com/DGP-Studio/DGP.Genshin.GamebarWidget)获取

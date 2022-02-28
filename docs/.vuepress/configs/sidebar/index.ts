@@ -37,6 +37,14 @@ export const main: SidebarConfig = {
         '/documents/FAQ/failed-load.md',
       ],
     },
+	
+	{
+      text: '拓展插件',
+      collapsible: false,
+      children: [
+        '/documents/extensions/README.md',
+      ],
+    },
 
     {
       text: '声明文档',

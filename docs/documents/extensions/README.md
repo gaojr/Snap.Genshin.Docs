@@ -4,7 +4,7 @@
 在使用非本列表中的Snap Genshin拓展插件时，请注意对插件安全性进行判断
 :::
 
-如果你有兴趣开发新的拓展插件，可以阅读我们[插件开发文档](https://www.snapgenshin.com/development/PluginTutorial.html)进行了解
+如果你有兴趣开发新的拓展插件，可以阅读我们[插件开发文档](/development/PluginTutorial.md)进行了解
 
 
 ## 伤害计算器

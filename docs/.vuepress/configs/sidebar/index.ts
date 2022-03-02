@@ -43,6 +43,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/documents/extensions/README.md',
+		'/documents/extensions/GamebarWidget.md',
       ],
     },
 

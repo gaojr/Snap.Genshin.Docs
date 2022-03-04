@@ -116,6 +116,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsBranch: 'main',
     docsDir: 'docs',
     contributors: false,
+    lastUpdated: false,
     contributorsText: '贡献者',
     lastUpdatedText: '上次更新',
     tip: '提示',

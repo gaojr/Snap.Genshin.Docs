@@ -16,6 +16,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/documents/features/game-launcher.md',
+        '/documents/features/Hutao-API.md',
         '/documents/features/account-switch.md',
         '/documents/features/mhy-account-switch.md',
         '/documents/features/unlock-framerate.md',

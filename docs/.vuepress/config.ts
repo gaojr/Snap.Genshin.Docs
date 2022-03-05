@@ -88,7 +88,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: '腾讯云',
-                link: 'https://download.snapgenshin.com/latest/Publish.zip'
+                link: 'https://download.snapgenshin.com/Publish.zip'
               }
             ]
           },

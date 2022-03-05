@@ -1,5 +1,7 @@
 # WebView2环境缺失错误
 
+## 解决方法
+
 解决方案有三，可**分别**尝试：
 
 1. 升级到最新版 Windows 10 或 Windows 11
@@ -10,3 +12,7 @@
     4. 按照提示安装
 3. 下载安装最新版Edge浏览器
 
+## 备选方案
+
+- 访问[https://resource.snapgenshin.com/](https://resource.snapgenshin.com/)
+- 在`Environment`文件夹中下载文件名包含`MicrosoftEdgeWebView2Runtime`关键词的安装包并安装

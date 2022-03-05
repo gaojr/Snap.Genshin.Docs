@@ -41,11 +41,8 @@
 
 ![promotion.png](https://img.snapgenshin.com/imgs/2022/02/685030e3521bd5b3.png)
 
+## 胡桃数据库
 
-## 树脂小组件
->支持多账号轮流提醒
->具有较高窗口优先级，可随时随地查看剩余树脂
+> 胡桃数据库是一个公开的深境螺旋数据平台，它统计并分析深境螺旋9~12层的角色出场率、角色持有率、配队信息、武器搭配和圣遗物搭配信息
 
-![xbox小组件](https://user-images.githubusercontent.com/52618207/155871932-b903c60f-0c29-4b52-8583-dd56f32c41cf.png)
-
-从[Github](https://github.com/DGP-Studio/DGP.Genshin.GamebarWidget)获取
+![](https://img.snapgenshin.com/imgs/2022/03/42cec5d8deb47201.png)

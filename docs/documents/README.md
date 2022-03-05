@@ -12,12 +12,13 @@
 ## 下载 Snap Genshin
 
 - 你可以始终在 Snap Genshin 的 GitHub 仓库的 [发布页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为 `Publish.zip` 的最新版程序
-  - 连接有困难的用户亦可以通过 [镜像站](https://download.snapgenshin.com/Publish.zip) 分流下载
+  - 连接有困难的用户亦可以通过 [镜像站](https://resource.snapgenshin.com/Publish.zip) 分流下载
+  - 你可以从[Snap Genshin资源中心](https://resource.snapgenshin.com)下载到所有和Snap Genshin相关的文件
 
 ## 启动 Snap Genshin
 
 - 将下载的压缩包内容解压到你认为合适的目录进行解压缩
-- 请勿将 Snap Genshin 置于 系统使用的目录下（如`C:\Windows`等）
+  - 请勿将 Snap Genshin 置于 系统使用的目录下（如`C:\Windows`等）
 - 启动为名`DGP.Genshin.exe`的主程序
   - 如果弹窗出现缺少`.NET`环境错误，可参阅 [.NET 环境缺失](./FAQ/dotNET-env.md)
 - 此时，你应当已经可以看到 Snap Genshin 程序界面

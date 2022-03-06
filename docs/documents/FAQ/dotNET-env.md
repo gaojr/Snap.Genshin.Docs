@@ -10,8 +10,8 @@
 
 ## 备选方案1
 
-- 访问[https://resource.snapgenshin.com/](https://resource.snapgenshin.com/)
-- 在`Environment`文件夹中下载文件名包含`dotnet-runtime`关键词的安装包并安装
+- 访问[Snap Genshin 资源中心](https://resource.snapgenshin.com/Environment/)
+- 在`Environment`文件夹中下载文件名包含`dotnet-desktop-runtime`关键词的安装包并安装
 
 ## 备选方案2
 

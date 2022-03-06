@@ -36,6 +36,7 @@ export const main: SidebarConfig = {
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',
         '/documents/FAQ/failed-load.md',
+        '/documents/FAQ/DailyNote-no-data.md',
       ],
     },
 	

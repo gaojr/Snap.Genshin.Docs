@@ -16,6 +16,6 @@
   ![account-switch1](https://img.snapgenshin.com/imgs/2022/02/16d2465a298f228f.png)
 
 - 之后，你便可以在`启动游戏`中切换账号并直接启动游戏了
-  - 切换为B服帐号时用户需自备SDK并添加到目录：`%YuanShen.exe所在目录%\YuanShen_Data\Plugins`
+  - 切换为B服帐号时用户需[自备](https://resource.snapgenshin.com/Plugins/B%E6%9C%8DSDK.zip)SDK并添加到目录：`%YuanShen.exe所在目录%\YuanShen_Data\Plugins`
 
   ![account-switch2](https://img.snapgenshin.com/imgs/2022/03/55154bdf1ad43903.png)

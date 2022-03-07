@@ -6,6 +6,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   head: [
     ["link", {rel: "icon", href: "/logo/favicon.ico" }],
+    ["script", { src: "https://cdn.jsdelivr.net/npm/cfga@1.0.3" }],
     ["script", { src: "/script/analytics.js" }]
   ],
   lang: 'zh-CN',

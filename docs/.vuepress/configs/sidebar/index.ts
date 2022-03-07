@@ -16,6 +16,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/documents/features/game-launcher.md',
+        '/documents/features/Hutao-API.md',
         '/documents/features/account-switch.md',
         '/documents/features/mhy-account-switch.md',
         '/documents/features/unlock-framerate.md',
@@ -35,6 +36,7 @@ export const main: SidebarConfig = {
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',
         '/documents/FAQ/failed-load.md',
+        '/documents/FAQ/DailyNote-no-data.md',
       ],
     },
 	
@@ -43,6 +45,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/documents/extensions/README.md',
+		'/documents/extensions/GamebarWidget.md',
       ],
     },
 

@@ -8,8 +8,13 @@
 
 ![dotnet_env_download](https://img.snapgenshin.com/imgs/2022/02/32616921ce555e17.png)
 
-## 备选方案
+## 备选方案1
 
-如果你仍然无法理解上述的常规解决方案，你可以尝试加入我们的QQ群（910780153）。  
-在群文件中的`Snap.Genshin运行环境` 文件夹中可以找到环境安装包。  
-下载后启动即可一键安装缺失的环境。  
+- 访问[Snap Genshin 资源中心](https://resource.snapgenshin.com/Environment/)
+- 在`Environment`文件夹中下载文件名包含`dotnet-desktop-runtime`关键词的安装包并安装
+
+## 备选方案2
+
+- 你可以尝试加入我们的QQ群（910780153）
+- 在群文件中的`Snap.Genshin运行环境` 文件夹中可以找到环境安装包
+- 下载后启动即可一键安装缺失的环境。  

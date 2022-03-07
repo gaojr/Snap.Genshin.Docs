@@ -91,7 +91,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: '腾讯云',
-                link: 'https://download.snapgenshin.com/latest/Publish.zip'
+                link: 'https://download.snapgenshin.com/Publish.zip'
               }
             ]
           },
@@ -119,6 +119,7 @@ export default defineUserConfig<DefaultThemeOptions>({
     docsBranch: 'main',
     docsDir: 'docs',
     contributors: false,
+    lastUpdated: false,
     contributorsText: '贡献者',
     lastUpdatedText: '上次更新',
     tip: '提示',

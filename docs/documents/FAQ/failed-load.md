@@ -1,10 +1,12 @@
 # 主程序无法启动
 
-## 更新.NET 6 运行环境
+## 更新.NET 6.0.2 桌面运行环境
 
-- 自2022/02/18版本后，Snap Genshin需要.NET 6.0.2或更高版本的运行环境
-  - 你可以在[微软官方](https://dotnet.microsoft.com/en-us/download/dotnet/thank-you/runtime-desktop-6.0.2-windows-x64-installer)下载安装包
-  - 你亦可以从[主群 (910780153) ](https://jq.qq.com/?_wv=1027&k=MHLNhhYJ)群文件的`Snap.Genshin 运行环境`文件夹中找到安装包
+- 自`2022.02.18`版本后，Snap Genshin需要`.NET 桌面运行时 6.0.2` (`.NET 6.0.2 Desktop Runtime`) 或更高版本的运行环境
+  - 你可以从以下位置下载到安装包
+    - [Snap Genshin资源中心](https://resource.snapgenshin.com/Environment/)
+    - [主群 (910780153) ](https://jq.qq.com/?_wv=1027&k=MHLNhhYJ)群文件的`Snap.Genshin 运行环境`文件夹
+    - [微软官方下载中心](https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.2-windows-x64-installer)
 
 ## 尝试覆盖安装最新版本
 

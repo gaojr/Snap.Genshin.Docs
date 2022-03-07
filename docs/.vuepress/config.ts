@@ -4,7 +4,10 @@ import { sidebar } from './configs'
 
 export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
-  head: [["link", {rel: "icon", href: "/logo/favicon.ico"}]],
+  head: [
+    ["link", {rel: "icon", href: "/logo/favicon.ico" }],
+    ["script", { src: "/script/analytics.js" }]
+  ],
   lang: 'zh-CN',
   title: 'Snap Genshin',
   description: '原神启动器',

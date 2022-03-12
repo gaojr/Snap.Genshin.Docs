@@ -6,8 +6,11 @@ export default defineUserConfig<DefaultThemeOptions>({
   // 站点配置
   head: [
     ["link", {rel: "icon", href: "/logo/favicon.ico" }],
-    ["script", { src: "https://cdn.jsdelivr.net/npm/cfga@1.0.3" }],
-    ["script", { src: "/script/analytics.js" }]
+    ["script", { src: "https://cdn.jsdelivr.net/npm/cfga@1.0.3", async: true }],
+    ["script", {}, `
+      window.ga_tid = "UA-222060450-1";
+      window.ga_api = "https://da.snapgenshin.cn/cfga/jquery.js";
+    `]
   ],
   lang: 'zh-CN',
   title: 'Snap Genshin',

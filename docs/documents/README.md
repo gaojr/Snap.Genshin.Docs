@@ -11,9 +11,9 @@
 
 ## 下载 Snap Genshin
 
-- 你可以始终在 Snap Genshin 的 GitHub 仓库的 [发布页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为 `Publish.zip` 的最新版程序
+- 你可以在 Snap Genshin 的 GitHub 仓库的 [发布页面](https://github.com/DGP-Studio/Snap.Genshin/releases) 下载名为 `Publish.zip` 的最新版程序
   - 连接有困难的用户亦可以通过 [镜像站](https://resource.snapgenshin.com/Publish.zip) 分流下载
-  - 你可以从[Snap Genshin资源中心](https://resource.snapgenshin.com)下载到所有和 Snap Genshin 相关的文件
+  - 你可以从 [Snap Genshin资源中心](https://resource.snapgenshin.com) 下载所有和 Snap Genshin 相关的文件
 
 ## 启动 Snap Genshin
 

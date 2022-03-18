@@ -94,8 +94,8 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '国内用户',
             children: [
               {
-                text: '腾讯云',
-                link: 'https://download.snapgenshin.com/Publish.zip'
+                text: '资源中心',
+                link: 'https://resource.snapgenshin.com/Publish.zip'
               }
             ]
           },

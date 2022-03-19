@@ -36,7 +36,7 @@ export const main: SidebarConfig = {
         //'/documents/FAQ/how-to-quit-program.md',
         '/documents/FAQ/launcher-path-error.md',
         '/documents/FAQ/DailyNote-no-data.md',
-        "/documents/FAQ/update-errors.md.md",
+        "/documents/FAQ/update-errors.md",
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',      
         "/documents/FAQ/No-permission.md",

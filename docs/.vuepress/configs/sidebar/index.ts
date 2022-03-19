@@ -20,6 +20,7 @@ export const main: SidebarConfig = {
         '/documents/features/account-switch.md',
         '/documents/features/mhy-account-switch.md',
         '/documents/features/unlock-framerate.md',
+        '/documents/features/promotion-calculator.md',
         '/documents/features/wish-export.md',
         '/documents/features/customize-webpage.md'
       ],
@@ -35,6 +36,7 @@ export const main: SidebarConfig = {
         //'/documents/FAQ/how-to-quit-program.md',
         '/documents/FAQ/launcher-path-error.md',
         '/documents/FAQ/DailyNote-no-data.md',
+        "/documents/FAQ/update-errors.md.md",
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',      
         "/documents/FAQ/No-permission.md",
@@ -54,6 +56,7 @@ export const main: SidebarConfig = {
       text: '声明文档',
       collapsible: false,
       children: [
+        '/documents/statement/bug-report.md',
         '/documents/statement/user-privacy-notice.md',
         '/documents/statement/sponsor.md',
       ],

@@ -20,4 +20,4 @@ Snap Genshin 可以用作游戏启动器，直接启动游戏本体，而不加�
         - [解锁帧率设置](/documents/features/unlock-framerate.md)
 - 若设置了错误的路径导致该功能无法使用，请参考[游戏启动路径错误](/FAQ/launcher-path-error.md)文档，重置该功能
 
-![](https://img.snapgenshin.com/imgs/2022/03/55154bdf1ad43903.png)
+![](https://img.snapgenshin.com/imgs/2022/03/790946469c919d40.png)

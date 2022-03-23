@@ -14,6 +14,8 @@
   - **在登录非常用帐号时，你应该使用浏览器的隐身模式登录米游社，而不是退出你当前的米游社帐号**
 - 完成后，你就可以在账号管理面板切换已登录的米游社账号了
 
+![米游社多帐号切换](https://img.snapgenshin.com/imgs/2022/02/1e0f5fd109743638.png)
+
 ## 如何获取 Cookie
 - 将 <a href="javascript:(()=>{_=(n)=>{for(i in(r=document.cookie.split(';'))){var a=r[i].split('=');if(a[0].trim()==n)return a[1]}};c=_('account_id')||alert('无效的Cookie,请重新登录!');c&&navigator.clipboard.writeText(document.cookie)&&confirm('Cookie已经成功复制到剪贴板。')})();" class="badge tip" style="padding: .25rem .5rem .25rem .5rem;border-radius: .25rem;font-size: .85rem;">米游社·获取Cookie</a> 添加为浏览器标签
 
@@ -27,10 +29,6 @@
 - 点击确定， Cookie 就被复制到剪贴板了
 
 ![复制 Cookie](/CopyCookie.png)
-
----
-
-![米游社多帐号切换](https://img.snapgenshin.com/imgs/2022/02/1e0f5fd109743638.png)
 
 ## 常见问题：米游社帐号登录状态经常失效，添加的账号凭空消失
 

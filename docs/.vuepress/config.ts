@@ -44,6 +44,10 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '插件开发',
             link: '/development/PluginTutorial.md'
           },
+          {
+            text: 'Snap Genshin API',
+            link: '/development/ApiDoc.md'
+          }
         ]
       },
       {

@@ -71,6 +71,7 @@ export const main: SidebarConfig = {
         '/development/StandardFormat',
         '/development/DeveloperGuide',
         '/development/PluginTutorial',
+        '/development/ApiDoc'
       ]
     }
   ],

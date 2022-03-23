@@ -24,7 +24,7 @@
 
 > [UIGF 格式](https://github.com/DGP-Studio/Snap.Genshin/wiki/StandardFormat) 支持
 
-![祈愿记录](https://img.snapgenshin.com/imgs/2022/02/9f1f05ea5b7970f3.png)
+![祈愿记录](https://img.snapgenshin.com/imgs/2022/03/d153e4155f32d37b.png)
 
 ## 玩家信息
 

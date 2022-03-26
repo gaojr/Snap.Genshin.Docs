@@ -8,100 +8,20 @@
 主程序使用了 WPF 作为基础 UI 框架  
 *由于 Win UI 3 目前阶段存在大量  BUG  故暂时不使用*
 
+## 实现文档
+
+[Snap Genshin 接口与实现](ApiDoc)
+
 ## 克隆Snap Genshin 主项目
 
->由于我们将包含了Token的仓库设为了私有
->以防止非组织成员生成的版本提交 AppCenter 数据
->所以需要执行特定的脚本才能顺利克隆仓库
-
-以下为 Python 脚本参考
-
-```python
-import os, sys, subprocess, shutil
-
-def process(cmd):
-    print(cmd)
-    subprocess.Popen(cmd).wait()
-
-def cmd(cmd):
-    process('cmd /c {cmd}'.format(cmd=cmd))
-
-def git_clone(path, url):
-    try:
-        shutil.rmtree(path)
-    except:
-        pass
-    process('cmd /c cd /d "{path}/.." && git clone "{url}"'.format(path=path, url=url))
-
-def cd(path):
-    print('cd "{path}"'.format(path=path))
-    os.chdir(path)
-
-def git_submodule():
-    if not os.path.exists('.git'):
-        print("This repository isn't cloned from git command, such as 'git clone https://github.com/DGP-Studio/Snap.Genshin.git'.")
-        exit(0)
-    process('git submodule update --init --recursive')
-    walk = '.git/modules/'
-    for root, _, files in os.walk(walk):
-        for file in files:
-            if file == 'config':
-                filename = os.path.join(root, file)
-                print(filename)
-                with open(filename, 'r') as f:
-                    lines = f.readlines()
-                    for line in lines:
-                        if line.strip().startswith('url'):
-                            path = root[len(walk):]
-                            url = line.strip()[len('url = '):]
-                            git_clone(path, url)
-                            print('---')
-
-def anti_secret():
-    new_lines = []
-    with open('DGP.Genshin/DGP.Genshin.csproj', 'r', encoding='utf8') as f:
-        lines = f.readlines()
-        for line in lines:
-            if 'Common\\DGP.Genshin.Secret' in line:
-                continue
-            elif 'DGP.Snap.AutoVersion.exe' in line:
-                continue
-            new_lines.append(line)
-    with open('DGP.Genshin/DGP.Genshin.csproj', 'w', encoding='utf8') as f:
-        f.writelines(new_lines)
-
-###
-# Override the following commands and cannot be skipped the `DGP.Genshin.Secret`.
-# process('git clone --recursive https://github.com/DGP-Studio/Snap.Genshin.git')
-# process('git clone https://github.com/DGP-Studio/Snap.Genshin.git && git submodule update --init --recursive')
-###
-if __name__ == '__main__':
-    cd(os.path.abspath(os.path.dirname(sys.argv[0])))
-    process('git clone https://github.com/DGP-Studio/Snap.Genshin.git')
-    cd('Snap.Genshin')
-    git_submodule()
-    anti_secret()
-    cmd('mkdir Build\\Debug\\net6.0-windows10.0.18362.0\\Plugins\\')
-    cmd('xcopy Metadata\\*.json Build\\Debug\\net6.0-windows10.0.18362.0\\Metadata\\ /e /y')
 ```
-
-脚本作用说明：
-
-> 1. 克隆库
-
-- 克隆`git clone https://github.com/DGP-Studio/Snap.Genshin.git`
-
-- 克隆子模块（`git_submodule`方法）
-
-> 2. 生成的预准备
-
-- 取消私有库`DGP.Genshin.Secret`的引用和`DGP.Snap.AutoVersion.exe`的编译事件
-
-- 复制Metadata到Debug生成目录
+git clone --recurse-submodules --depth 1 https://github.com/DGP-Studio/Snap.Genshin.git
+```
 
 ## 生成与调试
 
-要求：`VS2022` ，工作负荷：`.NET 桌面开发（未来需要：使用C++的桌面开发，通用Windows平台开发）`
+要求：`VS2022` ，工作负荷：`.NET 桌面开发（未来可能需要：使用C++的桌面开发，通用Windows平台开发）`
+`.NET Compiler Platform SDK`
 如果未在下方说明，正常的项目均可按常见的调试方法调试
 
 ### 调试 DGP.Genshin

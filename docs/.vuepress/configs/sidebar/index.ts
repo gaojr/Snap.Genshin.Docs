@@ -32,7 +32,7 @@ export const main: SidebarConfig = {
       children: [
         '/documents/FAQ/failed-load.md',
         //'/documents/FAQ/Dell-AWCC-error.md',
-        '/documents/FAQ/dotNET-env.md',
+        //'/documents/FAQ/dotNET-env.md',
         //'/documents/FAQ/how-to-quit-program.md',
         '/documents/FAQ/launcher-path-error.md',
         '/documents/FAQ/DailyNote-no-data.md',

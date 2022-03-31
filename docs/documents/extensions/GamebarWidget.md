@@ -3,6 +3,7 @@
 ::: tip 关于小组件
 
 Snap Genshin树脂小组件依赖于Windows自带的Xbox Game Bar，它不是狭义意义上Snap Genshin拓展插件，而是一个从Snap Genshin主程序中分离的小程序。Snap Genshin主程序中的树脂浮窗功能已被移除。
+
 该小组件的最低可兼容的系统版本为 Windows 10 1903 - 10.0.18362.0
 
 :::

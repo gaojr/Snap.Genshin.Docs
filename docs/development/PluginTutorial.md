@@ -16,23 +16,12 @@ Snap Genshin 的插件系统设计 使得开发者能够开发权限较高的插
 完整克隆的方法请参阅 [开发人员文档](DeveloperGuide)  
 `Clone` 完成后，使用 `Visual Studio 2022` 打开 `Snap.Genshin.sln` 文件
 
-## 修改主项目的生成行为
-
-* 由于主项目使用了自动递增版本号行为  
-可能会导致插件程序集引用了相比 Snap Genshin 发行版更高的版本  
-进而使插件程序集无法被加载到 Snap Genshin 中
-* 需要将 `DGP.Genshin` 项目的`预生成事件`清空
-* 找到 `DGP.Genshin\Properties\AssemblyInfo.cs` 文件  
-将 `[assembly: AssemblyVersion("*.*.*.*")]`  
-修改为 `[assembly: AssemblyVersion("0.0.0.0")]`
-* 也可以修改为指定的发行版本号以屏蔽较低版本的 Snap Genshin 加载你的插件
-
 ## 新建 `.NET 6` 类库
 
 我们推荐你在 `Plugins` 文件夹下新建项目，这样可以与我们的教程高度匹配  
-否则，可能需要按要求修改一些相对路径
+否则，可能需要按要求修改一些相对路径  
 新建项目完成后，修改项目的项目文件 `*.csproj`  
-下面给出示例xml
+下面给出示例xml  
 
 ``` xml
 <Project Sdk="Microsoft.NET.Sdk">
@@ -190,7 +179,7 @@ DGP.Genshin.Core.Plugins.ImportPageAttribute
 * 在工厂类上添加 `[Factory]`特性
 
 ``` c#
-using Microsoft.Toolkit.Mvvm.ComponentModel;
+using CommunityToolkit.Mvvm.ComponentModel;
 using Snap.Core.DependencyInjection;
 using System.Collections.Generic;
 using System.Windows.Media;
@@ -234,16 +223,15 @@ DGP.Genshin.Core.LifeCycle.IAppStartUp
 在任何你注入的类中 实现 
 
 ``` c#
-Microsoft.Toolkit.Mvvm.Messaging.IRecipient<DGP.Genshin.Message.AppExitingMessage>
+CommunityToolkit.Mvvm.Messaging.IRecipient<DGP.Genshin.Message.AppExitingMessage>
 ```
 接口，并在构造器中注入 
 ```
-Microsoft.Toolkit.Mvvm.Messaging.IMessaenger
+CommunityToolkit.Mvvm.Messaging.IMessaenger
 ```
 类型
 
 在构造器中 调用 IMessenger 的相关注册消息方法  
-并且不要忘记在析构器中 取消注册
 
 在 `IRecipient<AppExitingMessage>` 的接口方法中就可以处理应用程序退出时的逻辑了
 

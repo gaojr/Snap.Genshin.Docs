@@ -22,8 +22,10 @@
 
 ## 尝试删除所有插件
 - 可能加载了不合法或者旧版的插件
-  - 删除目录下的Plugins文件夹
-  - 删除文件夹内的文件也是可以的
+  - 删除或重命名目录下的Plugins文件夹
+    - 删除或重命名文件夹内的文件也是可以的
+  - 删除或重命名主目录下`implementations.json`文件
+    - `implementations.json` --> `implementations.json.bak`
 
 ## 还是不行？
 

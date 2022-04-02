@@ -10,8 +10,7 @@ https://webstatic.mihoyo.com/app/ys-map-cn/index.html#/map/2
 ``` js
 var hide = function() {
     try {
-        document.evaluate('//*[@id="root"]/div[2]/div[2]/div[16]',document).iterateNext().style.display = 'none';
-        document.evaluate('//*[@id="root"]/div[2]/div[1]',document).iterateNext().style.display = 'none';
+        document.evaluate('//*[@Class="bbs-qr"]',document).iterateNext().style.display = 'none';
         clearInterval(hideTimer);
     }
     catch {

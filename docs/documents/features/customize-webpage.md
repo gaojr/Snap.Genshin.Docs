@@ -29,7 +29,7 @@ https://wiki.biligame.com/ys/%E5%8E%9F%E7%A5%9E%E5%9C%B0%E5%9B%BE%E5%B7%A5%E5%85
 
 ### 脚本
 ``` js
-var result = document.evaluate("/html/body/div[3]/div[2]/div[4]/div[5]/div/div[5]/div/div/div[4]/div[1]/div[3]/div[3]/div[3]",document);
+var result = document.evaluate("html/body/div[2]/div[2]/div[4]/div[5]/div/div[5]/div/div/div[4]/div[1]/div[3]/div[3]/div[3]",document);
 var nodes = result.iterateNext();
 nodes.click();
 ```

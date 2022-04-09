@@ -54,7 +54,20 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '交流',
         children: [
           {
-            text: '问题反馈-主群',
+            text: '游戏交流群',
+            children: [
+              {
+                text: '547288075',
+                link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
+              },
+              {
+                text: '240095771',
+                link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'
+              },
+            ]
+          },
+          {
+            text: '问题反馈群',
             children: [
               {
                 text: '910780153',
@@ -63,25 +76,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             ]
           },
           {
-            text: '游戏交流-二群',
-            children: [
-              {
-                text: '547288075',
-                link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
-              },
-            ]
-          },
-          {
-            text: '游戏交流-三群',
-            children: [
-              {
-                text: '240095771',
-                link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'
-              },
-            ]
-          },
-          {
-            text: '程序开发',
+            text: '程序开发群',
             children: [
               {
                 text: '982424236',

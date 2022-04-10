@@ -57,9 +57,15 @@ export default defineUserConfig<DefaultThemeOptions>({
             text: '游戏交流群',
             children: [
               {
+                text: 'QQ频道',
+                link: 'https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1nYUe5&from=181074&biz=ka&shareSource=5'
+              },
+              /*
+              {
                 text: '547288075',
                 link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
               },
+              */
               {
                 text: '240095771',
                 link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'

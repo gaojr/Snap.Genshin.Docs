@@ -221,6 +221,7 @@ Json 格式 由于 与从官方接口获取到的格式一致
 | [DGP Studio/Snap.Genshin](https://github.com/DGP-Studio/Snap.Genshin) | `Snap Genshin` |
 |[MUK/应急食品](https://gtool.mukapp.top/)|`MUKGenshinTool`|
 | [Scighost/KeqingNiuza](https://github.com/Scighost/KeqingNiuza) | - |
+| [Scighost/Xunkong](https://github.com/Scighost/Xunkong) | `Xunkong.Desktop` |
 | [sunfkny/genshin gacha export](https://github.com/sunfkny/genshin-gacha-export) | `genshin-gacha-export` |
 | [TremblingMoeNew/DodocoTales](https://github.com/TremblingMoeNew/DodocoTales) | - |
 | [voderl/genshin gacha analyzer](https://github.com/voderl/genshin-gacha-analyzer) | - |

@@ -47,6 +47,10 @@ export default defineUserConfig<DefaultThemeOptions>({
           {
             text: 'Snap Genshin API',
             link: '/development/ApiDoc.md'
+          },
+          {
+            text: '第三方应用接入',
+            link: '/development/ThirdPartyAccess'
           }
         ]
       },

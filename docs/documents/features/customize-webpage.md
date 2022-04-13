@@ -61,3 +61,24 @@ setTimeout(function () {
 
 }, 1000);
 ```
+
+## 米游社日历
+
+### 网址
+``` http
+https://bbs.mihoyo.com/ys/obc/channel/map/193
+```
+
+### 脚本
+``` js
+let hide = function () {
+    let nodes = document.querySelectorAll('.header,.footer,.channel__breadcrumb,.channel-detail .map-catalog');
+    if (nodes.length > 0) {
+        nodes.forEach(function (item) { item.remove(); });
+        document.querySelector('.channel-detail__list').style.margin = 'auto';
+        clearInterval(hideTimer);
+    }
+};
+let hideTimer = setInterval(hide, 10);
+```
+用于隐藏导航等无用信息

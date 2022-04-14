@@ -17,6 +17,9 @@
 ![米游社多帐号切换](https://img.snapgenshin.com/imgs/2022/02/1e0f5fd109743638.png)
 
 ## 如何获取 Cookie
+
+### 方法1
+
 - 将 <a href="javascript:(()=>{_=(n)=>{for(i in(r=document.cookie.split(';'))){var a=r[i].split('=');if(a[0].trim()==n)return a[1]}};c=_('account_id')||alert('无效的 Cookie , 请重新登录!');c&&navigator.clipboard.writeText(document.cookie)&&alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。')})();" class="badge tip" style="padding: .25rem .5rem;border-radius: .25rem;font-size: .85rem;">米游社·获取Cookie</a> 添加为浏览器书签
 
 ![添加书签](/AddBookmark.png)
@@ -29,6 +32,16 @@
 - 点击确定， Cookie 就被复制到剪贴板了
 
 ![复制 Cookie](/CopyCookie.png)
+
+### 方法2
+
+```javascript
+javascript:(()=>{_=(n)=>{for(i in(r=document.cookie.split(';'))){var a=r[i].split('=');if(a[0].trim()==n)return a[1]}};c=_('account_id')||alert('无效的 Cookie , 请重新登录!');c&&navigator.clipboard.writeText(document.cookie)&&alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。')})();
+```
+
+- 启动浏览器，打开米游社并登录
+- 按F12打开浏览器控制台
+- 执行上方的代码
 
 ## 常见问题：米游社帐号登录状态经常失效，添加的账号凭空消失
 

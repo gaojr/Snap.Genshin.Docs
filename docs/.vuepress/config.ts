@@ -123,6 +123,10 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '赞助项目',
         link: '/documents/statement/sponsor.md'
       },
+      {
+        text: "可用性监控",
+        link: "https://status.snapgenshin.com/#/"
+      },
     ],
     sidebar: sidebar.main,
     repo: 'DGP-Studio/Snap.Genshin',

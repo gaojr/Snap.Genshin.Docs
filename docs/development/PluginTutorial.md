@@ -118,6 +118,7 @@ namespace DGP.Genshin.Sample.Plugin
 对应的 xaml 文件中的代码在此省略
 
 ``` c#
+using Snap.Core.DependencyInjection;
 using System.Windows.Controls;
 
 namespace DGP.Genshin.Sample.Plugin
@@ -164,8 +165,8 @@ DGP.Genshin.Core.Plugins.ImportPageAttribute
 一个插件可以通过此方法注册多个导航页面
 
 
-第三个参数是图标的字符串形式，详见 [segoe-fluent-icons-font](https://docs.microsoft.com/en-us/windows/apps/design/style/segoe-fluent-icons-font)  
-也可以使用另一个 `ImportPage` 的构造函数，采用了 `IconFactory` 类作为第三个参数
+* 第三个参数是图标的字符串形式，详见 [segoe-fluent-icons-font](https://docs.microsoft.com/en-us/windows/apps/design/style/segoe-fluent-icons-font)  
+* 也可以使用另一个 `ImportPage` 的构造函数，采用了 `IconFactory` 类作为第三个参数
 
 此时生成程序集可以发现 Snap Genshin 的左侧导航栏已经包含了新的导航页面入口
 
@@ -177,6 +178,12 @@ DGP.Genshin.Core.Plugins.ImportPageAttribute
 * 在视图模型上添加 `[ViewModel]` 特性  
 * 在页面上添加 `[View]` 特性
 * 在工厂类上添加 `[Factory]`特性
+
+通过
+```
+using Snap.Core.DependencyInjection;
+```
+以使用这些特性
 
 ``` c#
 using CommunityToolkit.Mvvm.ComponentModel;
@@ -220,24 +227,25 @@ DGP.Genshin.Core.LifeCycle.IAppStartUp
 
 ### `AppExitingMessage` 应用程序退出事件感知
 
-在任何你注入的类中 实现 
+* 在任何你注入的类中 实现 
+  ``` c#
+  CommunityToolkit.Mvvm.Messaging.IRecipient<DGP.Genshin.Message.AppExitingMessage>
+  ```
+  接口
 
-``` c#
-CommunityToolkit.Mvvm.Messaging.IRecipient<DGP.Genshin.Message.AppExitingMessage>
-```
-接口，并在构造器中注入 
-```
-CommunityToolkit.Mvvm.Messaging.IMessaenger
-```
-类型
+* 并在构造器中注入 
+  ```
+  CommunityToolkit.Mvvm.Messaging.IMessaenger
+  ```
+  实例
 
-在构造器中 调用 IMessenger 的相关注册消息方法  
+* 在构造器中 调用 IMessenger 的相关注册消息方法 
 
-在 `IRecipient<AppExitingMessage>` 的接口方法中就可以处理应用程序退出时的逻辑了
+* 在 `IRecipient<AppExitingMessage>` 的 `Receive` 方法中就可以处理应用程序退出时的逻辑了
 
 ## 异步命令
 ```
-Microsoft.Toolkit.Mvvm.Input.AsyncRelayCommand
+CommunityToolkit.Mvvm.Input.AsyncRelayCommand
 ```
 默认不会处理或打印异常的详细信息，使得调试异步命令的错误较为困难
 
@@ -249,7 +257,7 @@ DGP.Genshin.Factory.Abstraction.IAsyncRelayCommandFactory
 ```
 接口，以便创建能够处理异步操作异常的命令  
 当由此接口创建的命令发生异常时  
-会在控制台打印异常的详细信息  
+会在控制台打印异常的详细调用堆栈信息  
 在发行版中更会将异常信息上传
 
 > 可以通过依赖注入的方式获得此接口的默认实现
@@ -268,9 +276,9 @@ DGP.Genshin.Service.Abstraction.Setting.SettingDefinition<T>
 
 > 在注册新的设置项前需要前往  
 > `DGP.Genshin.Service.Abstraction.Setting.Setting2`  
-> 类中查看已有的设置项，避免与已有的注册项冲突  
+> 静态类中查看已有的设置项，避免与已有的注册项冲突  
 
 
 ## 项目示例
 
-关于详细的项目示例，请参考[此处](https://github.com/DGP-Studio/Snap.Genshin/tree/main/Plugins)
+关于详细的项目示例，请参考 [官方插件示例](https://github.com/DGP-Studio/Snap.Genshin/tree/main/Plugins)

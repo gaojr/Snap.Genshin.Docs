@@ -34,7 +34,6 @@ export const main: SidebarConfig = {
         //'/documents/FAQ/Dell-AWCC-error.md',
         //'/documents/FAQ/dotNET-env.md',
         //'/documents/FAQ/how-to-quit-program.md',
-        '/documents/FAQ/launcher-path-error.md',
         '/documents/FAQ/DailyNote-no-data.md',
         "/documents/FAQ/update-errors.md",
         '/documents/FAQ/transfer-from-other-wish-export.md',

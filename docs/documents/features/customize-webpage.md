@@ -1,5 +1,10 @@
 # 自定义网页和脚本
 
+::: tip
+如果你想要分享你正在使用的 网页/小工具  
+可以点击下方的编辑此页超链接，前往Github提交
+:::
+
 ## 观测大地图
 
 ### 网址
@@ -18,7 +23,6 @@ var hide = function() {
 };
 var hideTimer = setInterval(hide, 10);
 ```
-用于去除右下角的二维码角标
 
 ## BWIKI
 
@@ -33,7 +37,6 @@ var result = document.evaluate("html/body/div[2]/div[2]/div[4]/div[5]/div/div[5]
 var nodes = result.iterateNext();
 nodes.click();
 ```
-用于自动点击全屏显示
 
 ## 光环助手地图
 
@@ -81,4 +84,3 @@ let hide = function () {
 };
 let hideTimer = setInterval(hide, 10);
 ```
-用于隐藏导航等无用信息

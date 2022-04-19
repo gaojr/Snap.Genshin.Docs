@@ -41,10 +41,12 @@ Snap Genshin树脂小组件依赖于Windows自带的Xbox Game Bar，它不是狭
 
 ### 使用
 1. 使用` WIN+G `组合键，呼出Xbox小组件菜单，并点击
-  ![图片8](https://user-images.githubusercontent.com/52618207/155873697-9a0095a8-ad16-42ed-b96e-451ae442944c.png)
+
+    ![图片8](https://user-images.githubusercontent.com/52618207/155873697-9a0095a8-ad16-42ed-b96e-451ae442944c.png)
 
 2. 点击`Snap Genshin树脂小组件`后，即可自由拖动位置后使用
-  ![图片9](https://user-images.githubusercontent.com/52618207/155873753-bc741026-e245-49e1-9d2f-ba82d0b353b9.png)
+
+    ![图片9](https://user-images.githubusercontent.com/52618207/155873753-bc741026-e245-49e1-9d2f-ba82d0b353b9.png)
 
 ## 小贴士
 ![图片10](https://user-images.githubusercontent.com/52618207/155873824-1ffd4de3-d7c2-45f0-b8e9-60c1c1fd2984.png)

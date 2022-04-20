@@ -1,4 +1,4 @@
-# 统一可交换成就标准 v0.2
+# 统一可交换成就标准 v0.3
 
 > Uniformed Interchangeable Achievement Format standard (UIAF)
 
@@ -36,7 +36,7 @@
 ```json
 {
     "info" : {
-        ...
+        "export_app": "my app"
     },
     "list" : [
         {
@@ -56,7 +56,6 @@
 |字段名|值|说明|
 |-|-|-|
 |`export_timestamp`|导出UNIX时间戳||
-|`export_app`|导出此份记录的App名称，详见下方表格||
 |`export_app_version`|导出此份记录的App版本号||
 |`uiaf_version`|所应用的 `UIAF` 的版本,包含此字段以防 `UIAF` 出现中断性变更时，App无法处理||
 
@@ -81,7 +80,7 @@
 
 * 对于识别成功的值，直接将时间转换为对应的UNIX 时间戳（秒）
 
-* 对于识别失败的值，直接将时间转换为导出时对应的UNIX 时间戳（秒）
+* 对于识别失败的值，直接将时间设置为 `9999-12-31 23:59:59`（253402271999（秒））
 
 #### `value`
 

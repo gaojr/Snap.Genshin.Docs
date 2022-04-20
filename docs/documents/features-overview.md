@@ -22,7 +22,7 @@
 > 展示角色/武器/常驻祈愿的统计信息  
 > 展示累计获得的物品 分祈愿展示累积获得的物品
 
-> [UIGF 格式](https://github.com/DGP-Studio/Snap.Genshin/wiki/StandardFormat) 支持
+> [UIGF 格式](https://github.com/DGP-Studio/Snap.Genshin/wiki/UIGF) 支持
 
 ![祈愿记录](https://img.snapgenshin.com/imgs/2022/03/d153e4155f32d37b.png)
 

@@ -67,7 +67,7 @@ export const main: SidebarConfig = {
       text: "开发指南",
       collapsible: false,
       children: [
-        '/development/StandardFormat',
+        '/development/UIGF',
         '/development/DeveloperGuide',
         '/development/PluginTutorial',
         '/development/ApiDoc',

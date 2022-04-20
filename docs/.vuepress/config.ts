@@ -33,25 +33,39 @@ export default defineUserConfig<DefaultThemeOptions>({
         text: '开发',
         children: [
           {
-            text: '统一可交换祈愿记录标准',
-            link: '/development/StandardFormat.md'
+            text: '标准化',
+            children: [
+              {
+                text: '统一可交换祈愿记录标准',
+                link: '/development/UIGF.md'
+              },
+              {
+                text: '统一可交换成就标准',
+                link: '/development/UIAF.md'
+              }
+            ]
           },
           {
-            text: '开发人员指南',
-            link: '/development/DeveloperGuide.md'
+            text: '指南',
+            children: [
+              {
+                text: '开发人员指南',
+                link: '/development/DeveloperGuide.md'
+              },
+              {
+                text: '插件开发',
+                link: '/development/PluginTutorial.md'
+              },
+              {
+                text: '项目结构',
+                link: '/development/ApiDoc.md'
+              },
+              {
+                text: '第三方应用接入',
+                link: '/development/ThirdPartyAccess'
+              }
+            ]
           },
-          {
-            text: '插件开发',
-            link: '/development/PluginTutorial.md'
-          },
-          {
-            text: 'Snap Genshin API',
-            link: '/development/ApiDoc.md'
-          },
-          {
-            text: '第三方应用接入',
-            link: '/development/ThirdPartyAccess'
-          }
         ]
       },
       {

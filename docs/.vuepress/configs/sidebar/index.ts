@@ -68,6 +68,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/development/UIGF',
+        '/development/UIAF',
         '/development/DeveloperGuide',
         '/development/PluginTutorial',
         '/development/ApiDoc',

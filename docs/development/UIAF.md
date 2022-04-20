@@ -1,4 +1,4 @@
-# 统一可交换成就标准 v0.1
+# 统一可交换成就标准 v0.2
 
 > Uniformed Interchangeable Achievement Format standard (UIAF)
 
@@ -36,7 +36,6 @@
 ```json
 {
     "info" : {
-        "username" : "username",
         ...
     },
     "list" : [
@@ -52,7 +51,7 @@
 
 ### `info` 
 
-除了 `username` 字段，还可以包含我们认可的以下字段
+可以包含我们认可的以下字段
 
 |字段名|值|说明|
 |-|-|-|

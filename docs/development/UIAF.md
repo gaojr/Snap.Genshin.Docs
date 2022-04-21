@@ -1,4 +1,4 @@
-# 统一可交换成就标准 v0.3
+# 统一可交换成就标准 v0.4
 
 > Uniformed Interchangeable Achievement Format standard (UIAF)
 
@@ -20,13 +20,6 @@
 
 ## 注意事项
 
-### Id
-
-原神的成就在游戏内部带有Id，对于扫描类导出软件，在取得成就的外在表现形式（如：呈现文本）后，便可对应到内部的Id
-
-> 导入/导出软件应自行负责Id与呈现文本间的转换  
-> 成就的信息可以从 [Dimbreath/GenshinData](https://github.com/Dimbreath/GenshinData) 库中获取
-
 ### 时间
 
 若无另行说明，本标准的所有时间格式均以 UTC+8 时区为基准
@@ -42,7 +35,7 @@
         {
             "id": "80001",
             "timestamp": 1650437770,
-            "value": 40
+            "current": 40
         },
         ...
     ]
@@ -76,13 +69,20 @@
 |Empty|Empty|
 ### `achievement`
 
+#### `id`
+
+原神的成就在游戏内部带有Id，对于扫描类导出软件，在取得成就的外在表现形式（如：呈现文本）后，便可对应到内部的Id
+
+> 导入/导出软件应自行负责Id与呈现文本间的转换  
+> 成就的信息可以从 [Dimbreath/GenshinData](https://github.com/Dimbreath/GenshinData) 库中获取
+
 #### `timestamp`
 
 * 对于识别成功的值，直接将时间转换为对应的UNIX 时间戳（秒）
 
 * 对于识别失败的值，直接将时间设置为 `9999-12-31 23:59:59`（253402271999（秒））
 
-#### `value`
+#### `current`
 
 * 对于识别成功的值，如 30/40 `value` 的值应设置为30
 

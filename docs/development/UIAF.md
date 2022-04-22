@@ -1,4 +1,4 @@
-# 统一可交换成就标准 v0.4
+# 统一可交换成就标准 v0.5
 
 > Uniformed Interchangeable Achievement Format standard (UIAF)
 
@@ -33,7 +33,7 @@
     },
     "list" : [
         {
-            "id": "80001",
+            "id": 80001,
             "timestamp": 1650437770,
             "current": 40
         },

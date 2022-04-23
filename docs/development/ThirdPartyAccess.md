@@ -40,6 +40,14 @@ snapgenshin://achievement/import/clipboard
 ]
 ```
 
+OR
+
+```
+snapgenshin://achievement/import/uiaf
+```
+
+剪贴板内的文本格式必须为 [UIAF](UIAF.md) 格式
+
 ### 打开原神本体
 
 ```

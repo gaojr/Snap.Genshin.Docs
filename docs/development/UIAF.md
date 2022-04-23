@@ -1,8 +1,6 @@
-# 统一可交换成就标准 v0.5
+# 统一可交换成就标准 v1.0
 
 > Uniformed Interchangeable Achievement Format standard (UIAF)
-
-该标准目前处于制定阶段，可能会发生中断性更改
 
 ## 前言
 
@@ -10,8 +8,8 @@
 我们
 
 * [babalae/genshin achievement toy](https://github.com/babalae/genshin-achievement-toy)
-* [DizzyTom/GenshinAchievementsExport](https://github.com/DizzyTom/GenshinAchievementsExport)
 * [DGP Studio/Snap.Genshin](https://github.com/DGP-Studio/Snap.Genshin)
+* [DizzyTom/GenshinAchievementsExport](https://github.com/DizzyTom/GenshinAchievementsExport)
 * [HolographicHat/genshin achievement export](https://github.com/HolographicHat/genshin-achievement-export)
 * [YuehaiTeam/cocogoat](https://github.com/YuehaiTeam/cocogoat)
 
@@ -22,7 +20,7 @@
 
 ### 时间
 
-若无另行说明，本标准的所有时间格式均以 UTC+8 时区为基准
+若无另行说明，本标准的所有时间格式均以 `UTC+8` 时区为基准
 
 ## Json 格式
 
@@ -67,6 +65,7 @@
 |导出 App|`export_app` 的值|
 |-|-|
 |Empty|Empty|
+
 ### `achievement`
 
 #### `id`

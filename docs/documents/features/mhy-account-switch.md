@@ -44,7 +44,9 @@
         }
     };
     c = _('account_id') || alert('无效的 Cookie , 请重新登录!');
-    c && navigator.clipboard.writeText(document.cookie) && alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。')
+    if(c)
+        console.log(document.cookie) 
+    c && navigator.clipboard.writeText(document.cookie) && alert(' Cookie 已经成功获取, 点击确定将 Cookie 复制到剪贴板。如果未复制入剪贴板请手动复制下方的文字。')
 })()
 ```
 

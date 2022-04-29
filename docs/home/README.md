@@ -1,7 +1,7 @@
 ---
 title: 首页
 home: true
-heroImage: /logo/Home.png
+heroImage: https://image.snapgenshin.com/imgs/2022/04/29/75b2d9917f367c25.png
 heroText: Snap Genshin
 tagline: null
 actions:

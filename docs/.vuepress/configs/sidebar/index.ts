@@ -22,7 +22,8 @@ export const main: SidebarConfig = {
         '/documents/features/unlock-framerate.md',
         '/documents/features/promotion-calculator.md',
         '/documents/features/wish-export.md',
-        '/documents/features/customize-webpage.md'
+        '/documents/features/achievements.md',
+        '/documents/features/customize-webpage.md',
       ],
     },
 

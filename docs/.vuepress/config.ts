@@ -76,7 +76,7 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'QQ频道',
-                link: 'https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1nYUe5&from=181074&biz=ka&shareSource=5'
+                link: 'https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1yQq4Q&appChannel=share&businessType=9&from=246610&biz=ka'
               },
               /*
               {

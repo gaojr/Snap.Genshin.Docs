@@ -7,7 +7,7 @@ Snap Genshin 提供成就管理功能，用户可以通过它浏览并管理所�
 ## 成就阶段拆分
 
 ::: tip 友情提示
-对于日常委托中隐藏的成就，原神官方并没有提供准确的完成指引。因此，成就阶段拆分数据来源于玩家的数据贡献，我们需要有玩家不断地维护这一类数据。如果你是一个热衷于收集原神成就的玩家并且愿意贡献新的数据，你可以在 [Masterain98/Genshin-Impact-Decomposed-Achievements](Masterain98/Genshin-Impact-Decomposed-Achievements) 中创建新的 Issue 或 PR 以分享你的数据。
+对于日常委托中隐藏的成就，原神官方并没有提供准确的完成指引。因此，成就阶段拆分数据来源于玩家的数据贡献，我们需要有玩家不断地维护这一类数据。如果你是一个热衷于收集原神成就的玩家并且愿意贡献新的数据，你可以在 [Masterain98/Genshin-Impact-Decomposed-Achievements](https://github.com/Masterain98/Genshin-Impact-Decomposed-Achievements) 中创建新的 Issue 或 PR 以分享你的数据。
 :::
 
 Snap Genshin 对日常委托中包含的隐藏成就进行了阶段性的划分，用户可以通过勾选已完成的阶段性目标来记录相关成就的完成进度

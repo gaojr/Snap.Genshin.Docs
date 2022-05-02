@@ -21,7 +21,7 @@
     - B服不支持切换帐号
     - 最终它看起来像是这样：  
     `%YuanShen.exe所在目录%\YuanShen_Data\Plugins\PCGameSDK.dll`
-  - 
+  - 使用[国际服帐号切换插件](/documents/extensions/Genshin-Launcher-Plus-SE-Plugin.md)后，你将可以切换国际服帐号
   
 
 ![account-switch2](https://img.snapgenshin.com/imgs/2022/03/790946469c919d40.png)

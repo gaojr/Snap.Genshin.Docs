@@ -12,7 +12,7 @@
 
 ## 国际服支持
 
-| [项目地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin) | [下载地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin/releases) | [使用说明](https://www.snapgenshin.com/documents/extensions/Genshin-Launcher-Plus-SE-Plugin.html) |
+| [项目地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin) | [下载地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin/releases) | [使用说明](/documents/extensions/Genshin-Launcher-Plus-SE-Plugin.md) |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
 
 

@@ -21,17 +21,16 @@
 - 可能加载了不合法或者旧版的插件
   - 删除目录下的 `Plugins` 文件夹
 
-## 还是不行？
-
-- 你可以在反馈群 ([910780153](https://jq.qq.com/?_wv=1027&k=MHLNhhYJ)) 反馈问题
-
 # 启动后卡在加载页面
     包括 等待网络连接  校验缓存资源完整性 
 - 完全重启 Snap Genshin
 - 关闭所有的代理软件
 - 关闭杀软或将 Snap Genshin 加入白名单
 - 确认更新至最新版后删除 Snap Genshin 目录中的 `cache` 文件夹
-  - 以上方法均无法解决请在群内下载 `SnapGenshin.zip` 解压覆盖Snap Genshin目录
+
+## 还是不行？
+
+- 你可以在反馈群 ([910780153](https://jq.qq.com/?_wv=1027&k=MHLNhhYJ)) 反馈问题
 
 
 

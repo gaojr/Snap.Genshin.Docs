@@ -21,12 +21,13 @@
 - 可能加载了不合法或者旧版的插件
   - 删除目录下的 `Plugins` 文件夹
 
-# 启动后卡在加载页面
-    包括 等待网络连接  校验缓存资源完整性 
-- 完全重启 Snap Genshin
-- 关闭所有的代理软件
-- 关闭杀软或将 Snap Genshin 加入白名单
-- 确认更新至最新版后删除 Snap Genshin 目录中的 `cache` 文件夹
+## 启动后卡在加载页面
+- 包括`等待网络连接`和`校验缓存资源完整性`
+- 解决方案：
+  1. 尝试完全重启 Snap Genshin
+  2. 关闭所有的网络代理软件，或设置规则绕过 Snap Genshin 主程序
+  3. 关闭杀毒软件或者为 Snap Genshin 设置白名单
+  4. 下载并覆盖缓存文件夹 [https://resource.snapgenshin.com/Cache.zip](https://resource.snapgenshin.com/Cache.zip)
 
 ## 还是不行？
 

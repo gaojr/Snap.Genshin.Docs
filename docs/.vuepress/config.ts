@@ -14,7 +14,7 @@ export default defineUserConfig<DefaultThemeOptions>({
   ],
   lang: 'zh-CN',
   title: 'Snap Genshin',
-  description: '原神启动器',
+  description: '你一定会喜欢的原神工具全家桶',
 
   // 主题和它的配置
   theme: '@vuepress/theme-default',

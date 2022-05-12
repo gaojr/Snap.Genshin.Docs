@@ -76,27 +76,22 @@ export default defineUserConfig<DefaultThemeOptions>({
             children: [
               {
                 text: 'QQ频道',
-                link: 'https://qun.qq.com/qqweb/qunpro/share?_wv=3&_wwv=128&appChannel=share&inviteCode=1yQq4Q&appChannel=share&businessType=9&from=246610&biz=ka'
+                link: 'https://go.hut.ao/pd'
+              },
+              {
+                text: '910780153',
+                link: 'https://go.hut.ao/qun1'
               },
               /*
               {
                 text: '547288075',
-                link: 'https://jq.qq.com/?_wv=1027&k=cgh9S2XW'
+                link: 'https://go.hut.ao/qun2'
               },
               */
               {
                 text: '240095771',
-                link: 'https://jq.qq.com/?_wv=1027&k=DUkB0Nyx'
+                link: 'https://go.hut.ao/qun3'
               },
-            ]
-          },
-          {
-            text: '问题反馈群',
-            children: [
-              {
-                text: '910780153',
-                link: 'https://jq.qq.com/?_wv=1027&k=MHLNhhYJ'
-              }
             ]
           },
           {

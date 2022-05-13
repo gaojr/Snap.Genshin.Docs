@@ -20,7 +20,7 @@ git clone --recurse-submodules --depth 1 https://github.com/DGP-Studio/Snap.Gens
 ，工作负荷：  
 * `.NET 桌面开发`
 * `.NET Compiler Platform SDK`
-* 未来可能需要：使用C++的桌面开发，通用Windows平台开发）  
+* 未来可能需要：使用C++的桌面开发，通用Windows平台开发  
 
 ### 调试 DGP.Genshin
 

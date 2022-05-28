@@ -1,4 +1,4 @@
-# 成就管理
+# 成就管理 <Badge type="tip" text="UIAF" vertical="top" />
 
 ![](https://image.snapgenshin.com/imgs/2022/05/02/21047ff544f318fa.png)
 

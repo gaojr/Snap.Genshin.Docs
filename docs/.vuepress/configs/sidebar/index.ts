@@ -32,6 +32,7 @@ export const main: SidebarConfig = {
       collapsible: false,
       children: [
         '/documents/FAQ/failed-load.md',
+        '/documents/FAQ/program-crash.md',
         //'/documents/FAQ/Dell-AWCC-error.md',
         //'/documents/FAQ/dotNET-env.md',
         //'/documents/FAQ/how-to-quit-program.md',

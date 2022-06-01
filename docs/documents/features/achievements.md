@@ -22,7 +22,7 @@ Snap Genshin 使用[统一可交换成就标准](https://www.snapgenshin.com/dev
 
 ### Genshin Achievement Export
 
-- Snap Genshin 推荐使用 [HolographicHat/genshin-achievement-export ](HolographicHat/genshin-achievement-export) 将成就数据从原神中导出
+- Snap Genshin 推荐使用 [HolographicHat/YaeAchievement](https://github.com/HolographicHat/YaeAchievement) 将成就数据从原神中导出
   - 在第一次使用时，你需要选中名为`Yuanshen.exe`的原神游戏主程序来设置原神设置路径
   - 设置完成后，成就导出程序将自动启动游戏
   - 进门后，成就导出程序将获取到你的成就数据，并自动关闭游戏主程序

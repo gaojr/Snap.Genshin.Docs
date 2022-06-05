@@ -1,6 +1,6 @@
 # 国际服客户端转换插件
 
-| [GitHub项目地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin) | [SG资源站下载地址](https://resource.snapgenshin.com/Plugins/Genshin.Launcher.Plus.SE.Plugin/) | [百度网盘下载地址](https://pan.baidu.com/share/init?surl=-5zQoVfE7ImdXrn8OInKqg) (etxd) |
+| [GitHub项目地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin) | [SG资源站下载地址](https://resource.snapgenshin.com/Plugins/Genshin.Launcher.Plus.SE.Plugin/) | [百度网盘下载地址]([https://pan.baidu.com/share/init?surl=-5zQoVfE7ImdXrn8OInKqg](https://pan.baidu.com/s/1-5zQoVfE7ImdXrn8OInKqg?pwd=etxd)) (etxd) |
 | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
 
 ## 说明

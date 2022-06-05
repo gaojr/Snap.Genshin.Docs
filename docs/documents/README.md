@@ -5,9 +5,9 @@
 |-|-|
 |**最低可运行系统版本**|Windows 7 SP1 - 6.1.0|
 |**最低兼容系统版本**|Windows 10 1903 - 10.0.18362.0|
-|**推荐系统版本**|Windows 11 21H1 - 10.0.22000.0|
+|**推荐系统版本**|Windows 11 21H2 - 10.0.22000.0|
 |运行时**最低兼容版本**|.NET Desktop Runtime 6.0.2|
-|运行时**推荐版本**|.NET Desktop Runtime 6.0.4|
+|运行时**推荐版本**|.NET Desktop Runtime 6.0.5|
 |可选组件|WebView2 Runtime|
 
 ## 下载 Snap Genshin

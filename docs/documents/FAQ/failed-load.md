@@ -6,7 +6,7 @@
 
     - 返回结果中应如下图一样，包含`Microsoft.WindowsDesktop.App 6.0.4`
 
-      ![list-runtime](https://img.snapgenshin.com/imgs/2022/03/161f052144c1e32d.png)
+      ![list-runtime](https://image.snapgenshin.com/imgs/2022/03/161f052144c1e32d.png)
 
   - 你可以从以下位置下载到安装包
     - [Snap Genshin 资源中心](https://resource.snapgenshin.com/Environment/)

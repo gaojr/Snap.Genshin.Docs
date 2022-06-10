@@ -1,6 +1,6 @@
 # 无法读取和写入数据目录
 
-![](https://img.snapgenshin.com/imgs/2022/03/e3777c4bfd84fc45.png)
+![](https://image.snapgenshin.com/imgs/2022/03/e3777c4bfd84fc45.png)
 
 - 如果你在使用 Snap Genshin 时出现如上这一类错误
   - 说明你的 Snap Genshin 目录权限不足

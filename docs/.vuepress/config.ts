@@ -1,4 +1,4 @@
-import {defineUserConfig} from 'vuepress'
+import {defineUserConfig} from '@vuepress/cli'
 import type {DefaultThemeOptions} from 'vuepress'
 import { sidebar } from './configs'
 

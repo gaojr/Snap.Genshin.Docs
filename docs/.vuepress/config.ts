@@ -69,41 +69,8 @@ export default defineUserConfig<DefaultThemeOptions>({
         ]
       },
       {
-        text: '交流',
-        children: [
-          {
-            text: '游戏交流群',
-            children: [
-              {
-                text: 'QQ频道',
-                link: 'https://go.hut.ao/pd'
-              },
-              {
-                text: '910780153',
-                link: 'https://go.hut.ao/qun1'
-              },
-              /*
-              {
-                text: '547288075',
-                link: 'https://go.hut.ao/qun2'
-              },
-              */
-              {
-                text: '240095771',
-                link: 'https://go.hut.ao/qun3'
-              },
-            ]
-          },
-          {
-            text: '程序开发群',
-            children: [
-              {
-                text: '982424236',
-                link: 'https://jq.qq.com/?_wv=1027&k=pCOEg7fJ'
-              },
-            ]
-          },
-        ]
+        text: '加入交流群',
+        link: "/groups/"
       },
       {
         text: '下载',

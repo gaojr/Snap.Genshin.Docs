@@ -19,7 +19,7 @@ externalLinkIcon: false
 Snap Hutao 是 Snap Genshin 下一代产品的测试版，目前处于开发阶段。参与Snap Hutao内测即默认具有一定的开源软件使用经验，遵守开源精神。<br>
 交流群中仅讨论 Snap Hutao 相关话题， 问题提交请使用 GitHub Issues
 
-5. [**Snap Hutao Insider**735058787](https://qm.qq.com/cgi-bin/qm/qr?k=-9GO5ByOM-6gpS9UmQhd2Tu_W8KACHln&jump_from=webapi '点击一键加入原神地图交流六群')
+5. [**Snap Hutao Insider**735058787](https://qm.qq.com/cgi-bin/qm/qr?k=-9GO5ByOM-6gpS9UmQhd2Tu_W8KACHln&jump_from=webapi 'Snap Hutao 内测群')
 :::
 
 ## Discord

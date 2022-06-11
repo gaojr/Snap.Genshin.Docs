@@ -13,7 +13,7 @@
 
 - 在弹窗中，为该新登录的账号设置一个易于记忆的名称，随后确认
 
-  ![account-switch1](https://img.snapgenshin.com/imgs/2022/03/588f2f6b8ac947d3.png)
+  ![account-switch1](https://image.snapgenshin.com/imgs/2022/03/588f2f6b8ac947d3.png)
 
 - 之后，你便可以在 `启动游戏` 中切换账号并直接启动游戏了
   - 切换为B服帐号时用户需[自备](https://resource.snapgenshin.com/Plugins/B%E6%9C%8DSDK.zip)SDK，并添加到目录：  
@@ -24,4 +24,4 @@
   - 使用[国际服帐号切换插件](/documents/extensions/Genshin-Launcher-Plus-SE-Plugin.md)后，你将可以切换国际服帐号
   
 
-![account-switch2](https://img.snapgenshin.com/imgs/2022/03/790946469c919d40.png)
+![account-switch2](https://image.snapgenshin.com/imgs/2022/03/790946469c919d40.png)

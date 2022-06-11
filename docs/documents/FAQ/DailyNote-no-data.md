@@ -1,6 +1,6 @@
 # 实时便笺无数据
 
-<img src="https://img.snapgenshin.com/imgs/2022/03/0b91e902840c562e.png" style="zoom:70%;" />
+<img src="https://image.snapgenshin.com/imgs/2022/03/0b91e902840c562e.png" style="zoom:70%;" />
 
 如果你的实时便笺出现类似于上图的无数据情况，可以按照以下流程排查问题
 

@@ -5,4 +5,4 @@
 - 点击右上角的 `从 日志文件 刷新` 按钮
 - 根据提示，等待祈愿记录获取完成
 
-![wish-export-sample](https://img.snapgenshin.com/imgs/2022/03/d153e4155f32d37b.png)
+![wish-export-sample](https://image.snapgenshin.com/imgs/2022/03/d153e4155f32d37b.png)

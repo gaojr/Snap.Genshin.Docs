@@ -1,6 +1,6 @@
 # 胡桃数据库
 
-![img](https://img.snapgenshin.com/imgs/2022/03/42cec5d8deb47201.png)
+![img](https://image.snapgenshin.com/imgs/2022/03/42cec5d8deb47201.png)
 
 ## 上传深境螺旋数据
 
@@ -14,7 +14,7 @@
 
 - 检查你的UID、角色数量、深境螺旋战斗数据是否正确
 
-  ![img](https://img.snapgenshin.com/imgs/2022/03/689ed4cb8fc20441.png)
+  ![img](https://image.snapgenshin.com/imgs/2022/03/689ed4cb8fc20441.png)
 
 - 点击 `确认` 以提交数据
 

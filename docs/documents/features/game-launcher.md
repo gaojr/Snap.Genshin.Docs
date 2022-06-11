@@ -19,4 +19,4 @@ Snap Genshin 可以用作 游戏启动器，直接启动游戏本体，而不加
           - 全屏模式下修改分辨率会更改游戏渲染分辨率，建议启动之前修改好分辨率参数以避免出现黑边
         - [解锁帧率设置](/documents/features/unlock-framerate.md)
 
-![img](https://img.snapgenshin.com/imgs/2022/03/790946469c919d40.png)
+![img](https://image.snapgenshin.com/imgs/2022/03/790946469c919d40.png)

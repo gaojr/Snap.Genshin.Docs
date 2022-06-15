@@ -1,3 +1,7 @@
+---
+pageClass: communication-group
+---
+
 # Snap Genshin 插件
 
 ::: warning 安全提示
@@ -7,22 +11,67 @@
 
 Snap Genshin 插件为`.dll` 格式的文件。将你下载插件解压，将获得的`.dll`文件放置于 Snap Genshin 目录下的`Plugins`文件夹内之后，完全重启 Snap Genshin 即可激活插件。
 
+如果你有兴趣开发新的拓展插件，可以阅读我们的 [插件开发文档](/development/PluginTutorial.md) 进行了解
+
 ## 伤害计算器
 
-|[项目地址](https://github.com/DawnFz/SG.Plugin.Injury.Calculator)|[下载地址](https://github.com/DawnFz/SG.Plugin.Injury.Calculator/releases)|
-|-|-|
+1. [**项目地址**DawnFz/SG.Plugin.Injury.Calculator](https://github.com/DawnFz/SG.Plugin.Injury.Calculator)
+2. [**下载地址**GitHub](https://github.com/DawnFz/SG.Plugin.Injury.Calculator/releases)
+3. [**下载地址**Snap Genshin 资源中心](https://resource.snapgenshin.com/Plugins/SG.Plugin.Injury.Calculator/)
 
 ## 国际服支持
 
-| [项目地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin) | [下载地址](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin/releases) | [使用说明](/documents/extensions/Genshin-Launcher-Plus-SE-Plugin.md) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
+1. [**使用说明**&nbsp;](/documents/extensions/Genshin-Launcher-Plus-SE-Plugin.md)
+2. [**项目地址**DawnFz/Genshin.Launcher.Plus.SE.Plugin](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin)
+3. [**下载地址** GitHub](https://github.com/DawnFz/Genshin.Launcher.Plus.SE.Plugin/releases)
+4. [**下载地址** Snap Genshin 资源中心](https://resource.snapgenshin.com/Plugins/Genshin.Launcher.Plus.SE.Plugin/)
 
 ## Discord 游戏状态同步
 
 启用 Discord 游戏状态同步插件后，你可以在 Discord 上显示你当前的原神国服运行状态
 
-| [项目地址](https://github.com/DGP-Studio/Snap.Genshin/tree/main/Plugins/DGP.Genshin.DiscordPresence.Plugin) | [下载地址](https://resource.snapgenshin.com/Plugins/SG.Plugin.DiscordRpc/) |
-| ------------------------------------------------------------ | ------------------------------------------------------------ |
+1. [**项目地址**DGP.Genshin.DiscordPresence.Plugin](https://github.com/DGP-Studio/Snap.Genshin/tree/main/Plugins/DGP.Genshin.DiscordPresence.Plugin)
+2. [**下载地址** Snap Genshin 资源中心](https://resource.snapgenshin.com/Plugins/SG.Plugin.DiscordRpc/)
 
-如果你有兴趣开发新的拓展插件，可以阅读我们的 [插件开发文档](/development/PluginTutorial.md) 进行了解
 
+<style lang="scss" scoped>
+
+.communication-group{
+  ol {
+    display: inherit;
+    li {
+      cursor: pointer;
+      display: inline-block;
+      margin: 10px 0;
+      width: 98%;
+      font-size: 16px;
+      border: 1px solid var(--c-border-dark);
+      border-radius: 5px;
+      transition: all .3s;
+      text-align: right;
+      a {
+        display: inline-block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        opacity: .8;
+        padding: 10px 20px;
+        box-sizing: border-box;
+        transition: all .3s;
+        strong {
+          position: absolute;
+          left: 25px;
+        }
+        &:hover{
+          opacity: 1;
+          text-decoration:none!important;
+        }
+      }
+      &:hover{
+        transform: translate3d(0, -2px, 0);
+        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
+      }
+    }
+  }
+}
+</style>

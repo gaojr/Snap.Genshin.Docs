@@ -6,7 +6,7 @@
 
 ## 祈愿记录闪退
 
-当使用祈愿记录导出功能时，如果程序闪退且有`StatisticBuilder`/ `GachaStatisticService` 这些明显和祈愿相关的关键词时：
+在使用祈愿记录导出功能时，如果程序闪退且有`StatisticBuilder`/ `GachaStatisticService` 这些明显和祈愿相关的关键词时：
 
 1. 确认当前的主程序为**最新版本**
 2. 在主程序的设置中**更新元数据**
@@ -14,6 +14,12 @@
    1. 手动下载当前的[**最新版本程序包**](https://resource.snapgenshin.com/Publish.zip)
    2. 解压，并覆盖你之前的版本
    3. 如果出现主程序无法启动的问题，请参考 [**主程序无法启动**](https://www.snapgenshin.com/documents/FAQ/failed-load.html) 文档
+
+## 0x80131515
+
+在使用自定义网页功能时，如果程序闪退且有`System.NotSupportedException: The URI prefix is not recognized.` 这样的提示时：
+
+- 确保`图标Url`一栏中的网络地址有 `https://` 或 `http://` 的 HTTP 协议前缀
 
 
 

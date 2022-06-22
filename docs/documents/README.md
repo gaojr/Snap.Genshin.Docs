@@ -19,11 +19,22 @@
 ## 启动 Snap Genshin
 
 - 将下载的压缩包内容**完整解压**到你认为合适的目录进行解压缩
-  - **请勿**将 Snap Genshin 置于系统使用的目录下  
-    - 如`C:\Windows\`，这些目录有特殊的权限管理
-  - 同时其他的 Snap Genshin 主程序与 WebView2 无法写入的目录也不能用于存放本软件
-- 启动为名 `DGP.Genshin.exe` 的主程序
+  - **请勿**将 Snap Genshin 置于以下种类的目录下，包括但不限于：
+  
+    1. 需要管理员权限才可以使用的目录，如：
+  
+       - 系统分区的 `/Windows` 目录
+  
+       - `Program Files` 或 `Program Files (x86)` 目录
+  
+    2. 路径中包含中文的目录
+    3. 没有写入权限的目录
+  
+  - 推荐将 Snap Genshin 目录置于桌面、文档库或非系统分区内，并与其它绿色软件做统一管理
+  
+- 启动名为 `DGP.Genshin.exe` 的主程序
   - 如果弹窗出现缺少 `.NET` 环境错误，可参阅 [.NET 环境缺失](./FAQ/dotNET-env.md)文档
+  
 - 此时，你应当已经可以看到 Snap Genshin 程序界面
 
 ## 初始化设置

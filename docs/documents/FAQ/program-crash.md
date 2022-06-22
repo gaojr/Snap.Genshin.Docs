@@ -15,6 +15,14 @@
    2. 解压，并覆盖你之前的版本
    3. 如果出现主程序无法启动的问题，请参考 [**主程序无法启动**](https://www.snapgenshin.com/documents/FAQ/failed-load.html) 文档
 
+## 成就统计闪退
+
+在使用成就统计功能时，如果程序闪退且错误输出中包含类似下方这样的句式时，说明本地成就元数据不是最新版本。需要**在设置中更新元数据**。
+
+```c#
+System.Collections.Generic.KeyNotFoundException: The given key '84135' was not present in the dictionary.
+```
+
 ## 0x80131515
 
 在使用自定义网页功能时，如果程序闪退且有`System.NotSupportedException: The URI prefix is not recognized.` 这样的提示时：

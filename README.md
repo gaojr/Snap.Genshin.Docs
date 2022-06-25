@@ -10,7 +10,6 @@
 
 先决条件：
 - nodejs(Version >= 16)
-- yarn(Version >= 1)
 
 首先运行：
 ```git
@@ -19,9 +18,9 @@ git clone https://github.com/DGP-Studio/Snap.Genshin.Docs.git
 
 然后在项目文件夹下运行：
 
-```yarn
-yarn install
-yarn docs:dev
+```bash
+npm install
+npm run docs:dev
 ```
 
 ## 感谢

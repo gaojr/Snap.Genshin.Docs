@@ -74,26 +74,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载',
-        children: [
-          {
-            text: '国内用户',
-            children: [
-              {
-                text: '资源中心',
-                link: 'https://resource.snapgenshin.com/Publish.zip'
-              }
-            ]
-          },
-          {
-            text: '海外用户',
-            children: [
-              {
-                text: 'Github',
-                link: 'https://github.com/DGP-Studio/Snap.Genshin/releases/latest/download/Publish.zip'
-              }
-            ]
-          },
-        ],
+        link: '/documents/'
       },
       {
         text: '赞助项目',

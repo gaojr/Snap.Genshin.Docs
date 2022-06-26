@@ -6,10 +6,10 @@ heroText: Snap Genshin
 tagline: null
 actions:
   - text: 立即下载
-    link: https://resource.snapgenshin.com/Publish.zip
+    link: /documents/
     type: secondary
   - text: 帮助文档
-    link: /documents/
+    link: /documents/Toc.md
     type: primary
 features:
   - title: 玩家信息

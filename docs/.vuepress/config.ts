@@ -74,7 +74,7 @@ export default defineUserConfig<DefaultThemeOptions>({
       },
       {
         text: '下载',
-        link: '/documents/#下载-snap-genshin'
+        link: '/quick-start/README.md#下载-snap-genshin'
       },
       {
         text: '赞助项目',

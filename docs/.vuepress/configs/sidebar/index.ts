@@ -6,13 +6,13 @@ export const main: SidebarConfig = {
       text: '开始使用',
       collapsible: false,
       children: [
-        '/documents/',
-        '/documents/features-overview',
+        '/quick-start/',
+        '/quick-start/features-overview',
       ]
     },
     {
       text: "文档目录",
-      link: "/documents/ToC.md"
+      link: "/documents"
     },
     {
       text: '功能指南',

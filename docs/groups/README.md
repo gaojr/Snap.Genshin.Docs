@@ -6,13 +6,15 @@ pageClass: communication-group
 externalLinkIcon: false
 ---
 
-## QQ 交流群
+## QQ 群
 
 1. [**Snap Genshin QQ频道**&nbsp;](https://go.hut.ao/pd 'Snap Genshin QQ频道')
 2. [**Snap Genshin 一群**910780153](https://go.hut.ao/qun1 'Snap Genshin 一群')
 3. [**Snap Genshin 二群**853210278](https://go.hut.ao/qun2 'Snap Genshin 二群')
 4. [**Snap Genshin 三群**932683801](https://go.hut.ao/qun3 'Snap Genshin 三群')
-5. [**Snap Genshin 开发群**982424236](https://jq.qq.com/?_wv=1027&k=pCOEg7fJ 'Snap Genshin 开发群')
+5. [**Snap 开发交流群**982424236](https://jq.qq.com/?_wv=1027&k=pCOEg7fJ 'Snap 开发交流群')
+6. [**Snap 生态开发群**522578794](https://jq.qq.com/?_wv=1027&k=oTAcerHe 'Snap 生态开发群')
+7. [**Snap 核心开发群**664120433](https://jq.qq.com/?_wv=1027&k=f2Wo1Qjn 'Snap 核心开发群')
 
 
 :::warning Snap Hutao

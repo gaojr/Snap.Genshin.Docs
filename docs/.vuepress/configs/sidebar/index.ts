@@ -44,6 +44,7 @@ export const main: SidebarConfig = {
         '/documents/FAQ/transfer-from-other-wish-export.md',
         '/documents/FAQ/WebView2-env.md',      
         "/documents/FAQ/No-permission.md",
+        "/documents/FAQ/metadata-update.md"
       ],
     },
 	

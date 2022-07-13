@@ -21,6 +21,7 @@ sidebar: false
 - [主程序闪退](/documents/FAQ/program-crash.md)
 - [实时便笺无数据](/documents/FAQ/DailyNote-no-data.md)
 - [程序更新错误](/documents/FAQ/update-errors.md)
+- [抽卡记录不显示 UP 和大保底](/documents/FAQ/metadata-update.md)
 - [从其它祈愿记录工具导出数据](/documents/FAQ/transfer-from-other-wish-export.md)
 - [WebView2 环境缺失](/documents/FAQ/WebView2-env.md)
 - [无法读取和写入数据目录](/documents/FAQ/No-permission.md)

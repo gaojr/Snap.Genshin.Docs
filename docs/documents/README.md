@@ -25,6 +25,7 @@ sidebar: false
 - [从其它祈愿记录工具导出数据](/documents/FAQ/transfer-from-other-wish-export.md)
 - [WebView2 环境缺失](/documents/FAQ/WebView2-env.md)
 - [无法读取和写入数据目录](/documents/FAQ/No-permission.md)
+- [备份你的数据](/documents/FAQ/backup-data.md)
 
 ## 拓展插件
 

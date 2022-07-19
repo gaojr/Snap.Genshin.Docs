@@ -26,6 +26,7 @@ sidebar: false
 - [WebView2 环境缺失](/documents/FAQ/WebView2-env.md)
 - [无法读取和写入数据目录](/documents/FAQ/No-permission.md)
 - [备份你的数据](/documents/FAQ/backup-data.md)
+- [对国际服 HoYoLAB 的支持](/documents/FAQ/HoYoLAB-support.md)
 
 ## 拓展插件
 

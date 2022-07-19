@@ -46,6 +46,7 @@ export const main: SidebarConfig = {
         "/documents/FAQ/No-permission.md",
         "/documents/FAQ/metadata-update.md",
         "/documents/FAQ/backup-data.md",
+        "/documents/FAQ/HoYoLAB-support.md",
       ],
     },
 	

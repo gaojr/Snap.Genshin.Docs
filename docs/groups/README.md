@@ -2,7 +2,7 @@
 title: 加入交流群
 description: 加入交流群
 sidebar: false
-pageClass: communication-group
+pageClass: link-box
 externalLinkIcon: false
 ---
 
@@ -16,7 +16,6 @@ externalLinkIcon: false
 6. [**Snap 生态开发群**522578794](https://jq.qq.com/?_wv=1027&k=oTAcerHe 'Snap 生态开发群')
 7. [**Snap 核心开发群**664120433](https://jq.qq.com/?_wv=1027&k=f2Wo1Qjn 'Snap 核心开发群')
 
-
 :::warning Snap Hutao
 Snap Hutao 是 Snap Genshin 下一代产品的测试版，目前处于开发阶段。参与Snap Hutao内测即默认具有一定的开源软件使用经验，遵守开源精神。<br>
 交流群中仅讨论 Snap Hutao 相关话题， 问题提交请使用 GitHub Issues
@@ -27,45 +26,3 @@ Snap Hutao 是 Snap Genshin 下一代产品的测试版，目前处于开发阶�
 ## Discord
 
 邀请链接：<https://discord.gg/Yb8bykaUKp>
-
-<style lang="scss" scoped>
-
-.communication-group{
-  ol {
-    display: inherit;
-    li {
-      cursor: pointer;
-      display: inline-block;
-      margin: 10px 0;
-      width: 98%;
-      font-size: 16px;
-      border: 1px solid var(--c-border-dark);
-      border-radius: 5px;
-      transition: all .3s;
-      text-align: right;
-      a {
-        display: inline-block;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        opacity: .8;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        transition: all .3s;
-        strong {
-          position: absolute;
-          left: 25px;
-        }
-        &:hover{
-          opacity: 1;
-          text-decoration:none!important;
-        }
-      }
-      &:hover{
-        transform: translate3d(0, -2px, 0);
-        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
-      }
-    }
-  }
-}
-</style>

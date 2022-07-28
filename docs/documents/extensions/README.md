@@ -1,5 +1,5 @@
 ---
-pageClass: communication-group
+pageClass: link-box
 ---
 
 # Snap Genshin 插件
@@ -32,46 +32,3 @@ Snap Genshin 插件为`.dll` 格式的文件。将你下载插件解压，将获
 
 1. [**项目地址**DGP.Genshin.DiscordPresence.Plugin](https://github.com/DGP-Studio/Snap.Genshin/tree/main/Plugins/DGP.Genshin.DiscordPresence.Plugin)
 2. [**下载地址** Snap Genshin 资源中心](https://resource.snapgenshin.com/Plugins/SG.Plugin.DiscordRpc/)
-
-
-<style lang="scss" scoped>
-
-.communication-group{
-  ol {
-    display: inherit;
-    li {
-      cursor: pointer;
-      display: inline-block;
-      margin: 10px 0;
-      width: 98%;
-      font-size: 16px;
-      border: 1px solid var(--c-border-dark);
-      border-radius: 5px;
-      transition: all .3s;
-      text-align: right;
-      a {
-        display: inline-block;
-        position: relative;
-        width: 100%;
-        height: 100%;
-        opacity: .8;
-        padding: 10px 20px;
-        box-sizing: border-box;
-        transition: all .3s;
-        strong {
-          position: absolute;
-          left: 25px;
-        }
-        &:hover{
-          opacity: 1;
-          text-decoration:none!important;
-        }
-      }
-      &:hover{
-        transform: translate3d(0, -2px, 0);
-        box-shadow: 0 2px 12px 0 rgb(0 0 0 / 10%);
-      }
-    }
-  }
-}
-</style>

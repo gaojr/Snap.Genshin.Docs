@@ -8,7 +8,7 @@
 
 在使用祈愿记录，角色WIKI，武器WIKI，养成计算器功能时，如果程序闪退且抛出的异常信息中有`像素`这一关键词，你可以：
 
-- 删除`cache`文件夹后重启 Snap Genshin 主程序
+- 下载 [Cache.zip](https://resource.snapgenshin.com/Cache.zip) 解压于你的 Snap Genshin 目录并覆盖原有文件
 
 ## 祈愿记录闪退
 

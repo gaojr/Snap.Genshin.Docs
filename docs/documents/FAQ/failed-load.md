@@ -4,8 +4,10 @@
 
   - 你可以在命令提示符或 Windows PowerShell 中运行`dotnet --list-runtimes` 命令来判断系统中是否包含所需组件
 
-    - 返回结果中应如下图一样，包含`Microsoft.WindowsDesktop.App 6.0.4`
+    - 返回结果中应如下图类似，但包含`Microsoft.WindowsDesktop.App 6.0.4`，**或更高版本的 .NET Desktop 环境**
 
+      - 你可以在[快速开始](/quick-start/README.md)中找到 Snap Genshin 对 .NET Desktop 环境的**最低要求版本**和**推荐版本**
+      
       ![list-runtime](https://image.snapgenshin.com/imgs/2022/03/161f052144c1e32d.png)
 
   - 你可以从以下位置下载到安装包

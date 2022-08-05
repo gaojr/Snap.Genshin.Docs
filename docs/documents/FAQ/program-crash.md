@@ -4,6 +4,12 @@
 
 ![](https://image.snapgenshin.com/imgs/2022/05/31/c7d171b4c20671e1.png)
 
+## 祈愿记录/WIKI/养成计算器
+
+在使用祈愿记录，角色WIKI，武器WIKI，养成计算器功能时，如果程序闪退且抛出的异常信息中有`像素`这一关键词，你可以：
+
+- 删除`cache`文件夹后重启 Snap Genshin 主程序
+
 ## 祈愿记录闪退
 
 在使用祈愿记录导出功能时，如果程序闪退且有`StatisticBuilder`/ `GachaStatisticService` 这些明显和祈愿相关的关键词时：
@@ -23,7 +29,7 @@
 System.Collections.Generic.KeyNotFoundException: The given key '84135' was not present in the dictionary.
 ```
 
-## 0x80131515
+## 自定义网页功能闪退
 
 在使用自定义网页功能时，如果程序闪退且有`System.NotSupportedException: The URI prefix is not recognized.` 这样的提示时：
 

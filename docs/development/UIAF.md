@@ -1,4 +1,4 @@
-# 统一可交换成就标准 v1.0
+# 统一可交换成就标准 v1.1
 
 > Uniformed Interchangeable Achievement Format standard (UIAF)
 
@@ -9,7 +9,6 @@
 
 * [babalae/genshin achievement toy](https://github.com/babalae/genshin-achievement-toy)
 * [DGP Studio/Snap.Genshin](https://github.com/DGP-Studio/Snap.Genshin)
-* [DizzyTom/GenshinAchievementsExport](https://github.com/DizzyTom/GenshinAchievementsExport)
 * [HolographicHat/genshin achievement export](https://github.com/HolographicHat/genshin-achievement-export)
 * [YuehaiTeam/cocogoat](https://github.com/YuehaiTeam/cocogoat)
 
@@ -20,23 +19,86 @@
 
 ### 时间
 
-若无另行说明，本标准的所有时间格式均以 `UTC+8` 时区为基准
+本标准的所有时间格式均以 `UTC+8` 时区为基准
 
-## Json 格式
+## Json Schema
 
 ```json
 {
-    "info" : {
-        "export_app": "my app"
-    },
-    "list" : [
-        {
-            "id": 80001,
-            "timestamp": 1650437770,
-            "current": 40
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "info": {
+      "type": "object",
+      "properties": {
+        "export_app": {
+          "type": "string",
+          "description": "导出的app名称"
         },
-        ...
-    ]
+        "export_app_version": {
+          "type": "string",
+          "description": "导出此份记录的App版本号"
+        },
+        "uiaf_version": {
+          "type": "string",
+          "description": "所应用的 UIAF 的版本,包含此字段以防 UIAF 出现中断性变更时，App无法处理",
+          "pattern": "v\\d+.\\d+"
+        },
+        "export_timestamp": {
+          "type": "number",
+          "description": "导出UNIX时间戳"
+        }
+      },
+      "required": [
+        "export_app",
+        "uiaf_version"
+      ],
+      "description": "包含导出方定义的基本信息"
+    },
+    "list": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number",
+            "description": "对应的成就id"
+          },
+          "current": {
+            "type": "number",
+            "description": "进度"
+          },
+          "status": {
+            "type": "number",
+            "description": "完成状态",
+            "enum": [
+              0,
+              1,
+              2,
+              3
+            ],
+            "enumDesc": "ACHIEVEMENT_INVALID = 0; ACHIEVEMENT_UNFINISHED = 1; ACHIEVEMENT_FINISHED = 2;ACHIEVEMENT_POINT_TAKEN = 3;"
+          },
+          "timestamp": {
+            "type": "number",
+            "description": "完成的时间"
+          }
+        },
+        "required": [
+          "id",
+          "current",
+          "status",
+          "timestamp"
+        ],
+        "description": "表示一个成就"
+      },
+      "description": "包含完成或未完成的成就"
+    }
+  },
+  "required": [
+    "info",
+    "list"
+  ]
 }
 ```
 
@@ -54,9 +116,10 @@
 
 合法值
 
-|值|说明|兼容|
+|值|说明|向下兼容的最低版本|
 |-|-|-|
 |`v1.0`|首个正式版本|v1.0|
+|`v1.1`|在 `achievement` 中引入了 `status` 字段，指示成就的完成情况|v1.1|
 
 #### `export_app`
 
@@ -87,4 +150,4 @@
 
     > 因为始终可以从原神的数据中找到目标达成值
 
-* 对于识别失败的值，请将该字段移除，或将其设为 `null`
+* 对于识别失败的值，请将该字段的值设为 `0`

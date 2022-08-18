@@ -77,8 +77,7 @@ https://bbs.mihoyo.com/ys/obc/channel/map/193
 let t = setInterval(() = > {
     let n = document.querySelector('.channel__calendar')?.cloneNode(true);
     if (n) {
-        document.body.innerHTML = '';
-        document.body.appendChild(n);
+        document.body.innerHTML = n.outerHTML;
         clearInterval(t);
     }
 }, 10);

@@ -74,13 +74,12 @@ https://bbs.mihoyo.com/ys/obc/channel/map/193
 
 ### 脚本
 ```:no-line-numbers js
-let hide = function () {
-    let nodes = document.querySelectorAll('.header,.footer,.channel__breadcrumb,.channel-detail .map-catalog');
-    if (nodes.length > 0) {
-        nodes.forEach(function (item) { item.remove(); });
-        document.querySelector('.channel-detail__list').style.margin = 'auto';
-        clearInterval(hideTimer);
+let t = setInterval(() = > {
+    let n = document.querySelector('.channel__calendar')?.cloneNode(true);
+    if (n) {
+        document.body.innerHTML = '';
+        document.body.appendChild(n);
+        clearInterval(t);
     }
-};
-let hideTimer = setInterval(hide, 10);
+}, 10);
 ```
